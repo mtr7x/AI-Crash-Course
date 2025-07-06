@@ -1,7 +1,7 @@
 # AI-Crash-Course
 AI Crash Course to help busy builders catch up to the public frontier of AI research in 2 weeks
 
-**Intro:** I’m [Henry Shi](https://www.linkedin.com/in/henrythe9th/) and I started Super.com in 2016 and grew it to $150MM+ in annual revenues and recently exited. As a traditional software founder, I needed to quickly catch up to the frontier of AI research to figure out where the next opportunities and gaps were. I compiled a list of resources that were essential for me and should get you caught up within 2 weeks.
+**Intro:**  Fork of [Henry Shi](https://www.linkedin.com/in/henrythe9th/) 
 
 For more context, checkout the [original twitter thread](https://x.com/henrythe9ths/status/1877056425454719336)
 
