@@ -1,4 +1,4 @@
-# AI-Crash-Course
+# Making AI-Crash-Course - More Digestable
 AI Crash Course to help busy builders catch up to the public frontier of AI research in 2 weeks
 
 **Intro:**  Fork of [Henry Shi](https://www.linkedin.com/in/henrythe9th/) 
