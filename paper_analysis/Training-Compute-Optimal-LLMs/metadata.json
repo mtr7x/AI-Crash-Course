@@ -1,0 +1,19 @@
+{
+  "paper": {
+    "title": "Training Compute-Optimal LLMs",
+    "url": "https://arxiv.org/pdf/2203.15556",
+    "section": "Foundational Modelling",
+    "year": "2203",
+    "priority": false,
+    "raw_line": "[Training Compute-Optimal LLMs](https://arxiv.org/pdf/2203.15556) \\- 2022"
+  },
+  "processed_at": "2025-07-07T23:44:13.726760",
+  "analyses_generated": [
+    "stage_1",
+    "stage_2",
+    "stage_3",
+    "stage_4",
+    "pseudocode"
+  ],
+  "api_used": true
+}

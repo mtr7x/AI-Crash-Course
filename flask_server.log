@@ -1,0 +1,25 @@
+🚀 Starting AI Paper Analysis Web Server
+==================================================
+📊 Features:
+   • Web viewer with API configuration
+   • Real-time paper analysis
+   • Secure API key handling
+   • Progress tracking
+
+🌐 Access:
+   • Viewer: http://localhost:8080
+   • API Status: http://localhost:8080/api/status
+
+⚙️ Usage:
+   1. Open the viewer in your browser
+   2. Click ⚙️ to configure API keys
+   3. Click 'Re-analyze Papers' to run analysis
+   4. View updated results in real-time
+
+ * Serving Flask app 'web_server'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8080
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [07/Jul/2025 12:55:15] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jul/2025 12:56:12] "GET / HTTP/1.1" 200 -

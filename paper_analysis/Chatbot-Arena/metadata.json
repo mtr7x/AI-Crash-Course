@@ -1,0 +1,19 @@
+{
+  "paper": {
+    "title": "Chatbot Arena",
+    "url": "https://arxiv.org/pdf/2403.04132",
+    "section": "Benchmarks",
+    "year": "2403",
+    "priority": false,
+    "raw_line": "[Chatbot Arena](https://arxiv.org/pdf/2403.04132) (Live human preference Elo ratings) \\- 2024"
+  },
+  "processed_at": "2025-07-07T23:27:47.686490",
+  "analyses_generated": [
+    "stage_1",
+    "stage_2",
+    "stage_3",
+    "stage_4",
+    "pseudocode"
+  ],
+  "api_used": false
+}

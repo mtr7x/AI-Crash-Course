@@ -1,0 +1,19 @@
+{
+  "paper": {
+    "title": "Prompt Engineering Survey",
+    "url": "https://arxiv.org/pdf/2406.06608",
+    "section": "Then get up to speed via Survey papers",
+    "year": "2406",
+    "priority": false,
+    "raw_line": "[Prompt Engineering Survey](https://arxiv.org/pdf/2406.06608) \\- 2024"
+  },
+  "processed_at": "2025-07-07T23:43:11.262170",
+  "analyses_generated": [
+    "stage_1",
+    "stage_2",
+    "stage_3",
+    "stage_4",
+    "pseudocode"
+  ],
+  "api_used": true
+}

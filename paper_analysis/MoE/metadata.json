@@ -1,0 +1,19 @@
+{
+  "paper": {
+    "title": "MoE",
+    "url": "https://arxiv.org/pdf/2401.04088",
+    "section": "Foundational Modelling",
+    "year": "2401",
+    "priority": false,
+    "raw_line": "[MoE](https://arxiv.org/pdf/2401.04088) (MIxture of Experts) \\- 2024"
+  },
+  "processed_at": "2025-07-07T23:27:33.923861",
+  "analyses_generated": [
+    "stage_1",
+    "stage_2",
+    "stage_3",
+    "stage_4",
+    "pseudocode"
+  ],
+  "api_used": false
+}

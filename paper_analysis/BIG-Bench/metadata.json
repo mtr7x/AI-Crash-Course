@@ -1,0 +1,19 @@
+{
+  "paper": {
+    "title": "BIG-Bench",
+    "url": "https://arxiv.org/pdf/2206.04615",
+    "section": "Benchmarks",
+    "year": "2206",
+    "priority": false,
+    "raw_line": "[BIG-Bench](https://arxiv.org/pdf/2206.04615) (First broad & diverse collaborative OSS benchmark) \\- 2022"
+  },
+  "processed_at": "2025-07-07T23:27:43.130836",
+  "analyses_generated": [
+    "stage_1",
+    "stage_2",
+    "stage_3",
+    "stage_4",
+    "pseudocode"
+  ],
+  "api_used": false
+}

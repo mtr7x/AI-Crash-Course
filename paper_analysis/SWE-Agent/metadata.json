@@ -1,0 +1,19 @@
+{
+  "paper": {
+    "title": "SWE-Agent",
+    "url": "https://arxiv.org/pdf/2405.15793",
+    "section": "Applications",
+    "year": "2405",
+    "priority": false,
+    "raw_line": "[SWE-Agent](https://arxiv.org/pdf/2405.15793)/[OpenHands](https://arxiv.org/pdf/2407.16741) (OpenSource software development agents) \\- 2024"
+  },
+  "processed_at": "2025-07-07T23:27:38.143511",
+  "analyses_generated": [
+    "stage_1",
+    "stage_2",
+    "stage_3",
+    "stage_4",
+    "pseudocode"
+  ],
+  "api_used": false
+}

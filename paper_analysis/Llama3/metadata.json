@@ -1,0 +1,19 @@
+{
+  "paper": {
+    "title": "Llama3\\",
+    "url": "https://arxiv.org/pdf/2407.21783",
+    "section": "Applications",
+    "year": "2407",
+    "priority": true,
+    "raw_line": "[**Llama3**\\*](https://arxiv.org/pdf/2407.21783) (In depth details of how Meta built Llama3 and the various configurations and hyperparameters) \\- 2024"
+  },
+  "processed_at": "2025-07-07T23:42:31.227698",
+  "analyses_generated": [
+    "stage_1",
+    "stage_2",
+    "stage_3",
+    "stage_4",
+    "pseudocode"
+  ],
+  "api_used": true
+}

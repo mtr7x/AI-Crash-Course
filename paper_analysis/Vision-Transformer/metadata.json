@@ -1,0 +1,19 @@
+{
+  "paper": {
+    "title": "Vision Transformer",
+    "url": "https://arxiv.org/pdf/2010.11929",
+    "section": "Others (non LLMs)",
+    "year": "2010",
+    "priority": false,
+    "raw_line": "[Vision Transformer](https://arxiv.org/pdf/2010.11929) (no need for CNNs) \\- 2021"
+  },
+  "processed_at": "2025-07-07T23:27:48.133536",
+  "analyses_generated": [
+    "stage_1",
+    "stage_2",
+    "stage_3",
+    "stage_4",
+    "pseudocode"
+  ],
+  "api_used": false
+}

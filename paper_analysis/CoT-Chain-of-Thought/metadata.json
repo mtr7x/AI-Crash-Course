@@ -1,0 +1,19 @@
+{
+  "paper": {
+    "title": "CoT\\ (Chain of Thought)",
+    "url": "https://arxiv.org/pdf/2201.11903",
+    "section": "Planning/Reasoning",
+    "year": "2201",
+    "priority": true,
+    "raw_line": "[**CoT**\\* (Chain of Thought)](https://arxiv.org/pdf/2201.11903)/[ToT (Tree of Thoughts)](https://arxiv.org/pdf/2305.10601)/[GoT (Graph of Thoughts)](https://arxiv.org/pdf/2308.09687)/[Meta CoT](https://arxiv.org/pdf/2501.04682) \\- 2022/2023/2023/2025"
+  },
+  "processed_at": "2025-07-07T23:41:35.432437",
+  "analyses_generated": [
+    "stage_1",
+    "stage_2",
+    "stage_3",
+    "stage_4",
+    "pseudocode"
+  ],
+  "api_used": true
+}

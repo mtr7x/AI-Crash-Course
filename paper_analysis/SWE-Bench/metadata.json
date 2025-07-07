@@ -1,0 +1,19 @@
+{
+  "paper": {
+    "title": "SWE-Bench",
+    "url": "https://arxiv.org/pdf/2310.06770",
+    "section": "Benchmarks",
+    "year": "2310",
+    "priority": false,
+    "raw_line": "[SWE-Bench](https://arxiv.org/pdf/2310.06770) (Real world software development) \\- 2023"
+  },
+  "processed_at": "2025-07-07T23:27:47.686537",
+  "analyses_generated": [
+    "stage_1",
+    "stage_2",
+    "stage_3",
+    "stage_4",
+    "pseudocode"
+  ],
+  "api_used": false
+}

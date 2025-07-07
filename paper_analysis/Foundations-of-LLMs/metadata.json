@@ -1,0 +1,19 @@
+{
+  "paper": {
+    "title": "Foundations of LLMs",
+    "url": "https://arxiv.org/pdf/2501.09223",
+    "section": "Videos/Lectures",
+    "year": "2501",
+    "priority": false,
+    "raw_line": "[Foundations of LLMs](https://arxiv.org/pdf/2501.09223)"
+  },
+  "processed_at": "2025-07-07T23:27:47.686185",
+  "analyses_generated": [
+    "stage_1",
+    "stage_2",
+    "stage_3",
+    "stage_4",
+    "pseudocode"
+  ],
+  "api_used": false
+}

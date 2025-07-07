@@ -1,0 +1,19 @@
+{
+  "paper": {
+    "title": "MuZero\\",
+    "url": "https://arxiv.org/pdf/1911.08265",
+    "section": "Planning/Reasoning",
+    "year": "1712",
+    "priority": true,
+    "raw_line": "[AlphaZero](https://arxiv.org/pdf/1712.01815)/[**MuZero**\\*](https://arxiv.org/pdf/1911.08265) (RL without prior knowledge of game or rules) \\- 2017/2019"
+  },
+  "processed_at": "2025-07-07T23:41:37.361700",
+  "analyses_generated": [
+    "stage_1",
+    "stage_2",
+    "stage_3",
+    "stage_4",
+    "pseudocode"
+  ],
+  "api_used": true
+}

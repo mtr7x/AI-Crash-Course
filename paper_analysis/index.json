@@ -1,0 +1,302 @@
+{
+  "generated_at": "2025-07-07T23:27:49.648333",
+  "total_papers": 37,
+  "papers": [
+    {
+      "title": "Transformers\\",
+      "section": "Foundational Modelling",
+      "year": "1706",
+      "priority": true,
+      "url": "https://arxiv.org/pdf/1706.03762",
+      "directory": "Transformers"
+    },
+    {
+      "title": "GPT3\\",
+      "section": "Foundational Modelling",
+      "year": "2001",
+      "priority": true,
+      "url": "https://arxiv.org/pdf/2005.14165",
+      "directory": "GPT3"
+    },
+    {
+      "title": "RLHF\\",
+      "section": "Foundational Modelling",
+      "year": "2203",
+      "priority": true,
+      "url": "https://arxiv.org/pdf/2203.02155",
+      "directory": "RLHF"
+    },
+    {
+      "title": "MuZero\\",
+      "section": "Planning/Reasoning",
+      "year": "1712",
+      "priority": true,
+      "url": "https://arxiv.org/pdf/1911.08265",
+      "directory": "MuZero"
+    },
+    {
+      "title": "CoT\\ (Chain of Thought)",
+      "section": "Planning/Reasoning",
+      "year": "2201",
+      "priority": true,
+      "url": "https://arxiv.org/pdf/2201.11903",
+      "directory": "CoT-Chain-of-Thought"
+    },
+    {
+      "title": "ARC-Prize\\",
+      "section": "Planning/Reasoning",
+      "year": "2412",
+      "priority": true,
+      "url": "https://arxiv.org/pdf/2412.04604",
+      "directory": "ARC-Prize"
+    },
+    {
+      "title": "DeepSeek R1\\",
+      "section": "Planning/Reasoning",
+      "year": "2501",
+      "priority": true,
+      "url": "https://arxiv.org/pdf/2501.12948v1",
+      "directory": "DeepSeek-R1"
+    },
+    {
+      "title": "Llama3\\",
+      "section": "Applications",
+      "year": "2407",
+      "priority": true,
+      "url": "https://arxiv.org/pdf/2407.21783",
+      "directory": "Llama3"
+    },
+    {
+      "title": "LLM Survey",
+      "section": "Then get up to speed via Survey papers",
+      "year": "2402",
+      "priority": false,
+      "url": "https://arxiv.org/pdf/2402.06196v2",
+      "directory": "LLM-Survey"
+    },
+    {
+      "title": "Agent Survey",
+      "section": "Then get up to speed via Survey papers",
+      "year": "2308",
+      "priority": false,
+      "url": "https://arxiv.org/pdf/2308.11432",
+      "directory": "Agent-Survey"
+    },
+    {
+      "title": "Prompt Engineering Survey",
+      "section": "Then get up to speed via Survey papers",
+      "year": "2406",
+      "priority": false,
+      "url": "https://arxiv.org/pdf/2406.06608",
+      "directory": "Prompt-Engineering-Survey"
+    },
+    {
+      "title": "Scaling Laws",
+      "section": "Foundational Modelling",
+      "year": "2001",
+      "priority": false,
+      "url": "https://arxiv.org/pdf/2001.08361",
+      "directory": "Scaling-Laws"
+    },
+    {
+      "title": "LoRA",
+      "section": "Foundational Modelling",
+      "year": "2106",
+      "priority": false,
+      "url": "https://arxiv.org/abs/2106.09685",
+      "directory": "LoRA"
+    },
+    {
+      "title": "Training Compute-Optimal LLMs",
+      "section": "Foundational Modelling",
+      "year": "2203",
+      "priority": false,
+      "url": "https://arxiv.org/pdf/2203.15556",
+      "directory": "Training-Compute-Optimal-LLMs"
+    },
+    {
+      "title": "DPO",
+      "section": "Foundational Modelling",
+      "year": "2305",
+      "priority": false,
+      "url": "https://arxiv.org/pdf/2305.18290",
+      "directory": "DPO"
+    },
+    {
+      "title": "LLM-as-Judge",
+      "section": "Foundational Modelling",
+      "year": "2306",
+      "priority": false,
+      "url": "https://arxiv.org/pdf/2306.05685",
+      "directory": "LLM-as-Judge"
+    },
+    {
+      "title": "MoE",
+      "section": "Foundational Modelling",
+      "year": "2401",
+      "priority": false,
+      "url": "https://arxiv.org/pdf/2401.04088",
+      "directory": "MoE"
+    },
+    {
+      "title": "AlphaZero",
+      "section": "Planning/Reasoning",
+      "year": "1712",
+      "priority": false,
+      "url": "https://arxiv.org/pdf/1712.01815",
+      "directory": "AlphaZero"
+    },
+    {
+      "title": "ToT (Tree of Thoughts)",
+      "section": "Planning/Reasoning",
+      "year": "2201",
+      "priority": false,
+      "url": "https://arxiv.org/pdf/2305.10601",
+      "directory": "ToT-Tree-of-Thoughts"
+    },
+    {
+      "title": "GoT (Graph of Thoughts)",
+      "section": "Planning/Reasoning",
+      "year": "2201",
+      "priority": false,
+      "url": "https://arxiv.org/pdf/2308.09687",
+      "directory": "GoT-Graph-of-Thoughts"
+    },
+    {
+      "title": "Meta CoT",
+      "section": "Planning/Reasoning",
+      "year": "2201",
+      "priority": false,
+      "url": "https://arxiv.org/pdf/2501.04682",
+      "directory": "Meta-CoT"
+    },
+    {
+      "title": "ReACT",
+      "section": "Planning/Reasoning",
+      "year": "2210",
+      "priority": false,
+      "url": "https://arxiv.org/pdf/2210.03629",
+      "directory": "ReACT"
+    },
+    {
+      "title": "Let\u2019s Verify Step by Step",
+      "section": "Planning/Reasoning",
+      "year": "2305",
+      "priority": false,
+      "url": "https://arxiv.org/pdf/2305.20050",
+      "directory": "Lets-Verify-Step-by-Step"
+    },
+    {
+      "title": "Toolformer",
+      "section": "Applications",
+      "year": "2302",
+      "priority": false,
+      "url": "https://arxiv.org/pdf/2302.04761",
+      "directory": "Toolformer"
+    },
+    {
+      "title": "GPT4",
+      "section": "Applications",
+      "year": "2303",
+      "priority": false,
+      "url": "https://arxiv.org/pdf/2303.08774",
+      "directory": "GPT4"
+    },
+    {
+      "title": "Gemini1.5",
+      "section": "Applications",
+      "year": "2403",
+      "priority": false,
+      "url": "https://arxiv.org/pdf/2403.05530",
+      "directory": "Gemini15"
+    },
+    {
+      "title": "Deepseekv3",
+      "section": "Applications",
+      "year": "2024",
+      "priority": false,
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3/blob/main/DeepSeek_V3.pdf",
+      "directory": "Deepseekv3"
+    },
+    {
+      "title": "SWE-Agent",
+      "section": "Applications",
+      "year": "2405",
+      "priority": false,
+      "url": "https://arxiv.org/pdf/2405.15793",
+      "directory": "SWE-Agent"
+    },
+    {
+      "title": "OpenHands",
+      "section": "Applications",
+      "year": "2405",
+      "priority": false,
+      "url": "https://arxiv.org/pdf/2407.16741",
+      "directory": "OpenHands"
+    },
+    {
+      "title": "BIG-Bench",
+      "section": "Benchmarks",
+      "year": "2206",
+      "priority": false,
+      "url": "https://arxiv.org/pdf/2206.04615",
+      "directory": "BIG-Bench"
+    },
+    {
+      "title": "SWE-Bench",
+      "section": "Benchmarks",
+      "year": "2310",
+      "priority": false,
+      "url": "https://arxiv.org/pdf/2310.06770",
+      "directory": "SWE-Bench"
+    },
+    {
+      "title": "Chatbot Arena",
+      "section": "Benchmarks",
+      "year": "2403",
+      "priority": false,
+      "url": "https://arxiv.org/pdf/2403.04132",
+      "directory": "Chatbot-Arena"
+    },
+    {
+      "title": "Foundations of LLMs",
+      "section": "Videos/Lectures",
+      "year": "2501",
+      "priority": false,
+      "url": "https://arxiv.org/pdf/2501.09223",
+      "directory": "Foundations-of-LLMs"
+    },
+    {
+      "title": "History of Deep Learning",
+      "section": "Helpful Websites",
+      "year": "Unknown",
+      "priority": false,
+      "url": "https://github.com/adam-maj/deep-learning?tab=readme-ov-file",
+      "directory": "History-of-Deep-Learning"
+    },
+    {
+      "title": "Vision Transformer",
+      "section": "Others (non LLMs)",
+      "year": "2010",
+      "priority": false,
+      "url": "https://arxiv.org/pdf/2010.11929",
+      "directory": "Vision-Transformer"
+    },
+    {
+      "title": "Latent Diffusion",
+      "section": "Others (non LLMs)",
+      "year": "2112",
+      "priority": false,
+      "url": "https://arxiv.org/pdf/2112.10752",
+      "directory": "Latent-Diffusion"
+    },
+    {
+      "title": "SELF-REFINE: Iterative Refinement with Self-Feedback",
+      "section": "Obvious/easy papers (to get your feet wet if you're new to papers)",
+      "year": "2303",
+      "priority": false,
+      "url": "https://arxiv.org/pdf/2303.17651",
+      "directory": "SELF-REFINE-Iterative-Refinement-with-Self-Feedback"
+    }
+  ]
+}

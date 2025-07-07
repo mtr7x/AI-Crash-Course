@@ -1,0 +1,19 @@
+{
+  "paper": {
+    "title": "GPT3\\",
+    "url": "https://arxiv.org/pdf/2005.14165",
+    "section": "Foundational Modelling",
+    "year": "2001",
+    "priority": true,
+    "raw_line": "[Scaling Laws](https://arxiv.org/pdf/2001.08361)/[**GPT3**\\*](https://arxiv.org/pdf/2005.14165) (conviction to scale up GPT2/3/4) \\- 2020"
+  },
+  "processed_at": "2025-07-07T23:40:42.734220",
+  "analyses_generated": [
+    "stage_1",
+    "stage_2",
+    "stage_3",
+    "stage_4",
+    "pseudocode"
+  ],
+  "api_used": true
+}

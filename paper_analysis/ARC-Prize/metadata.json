@@ -1,0 +1,19 @@
+{
+  "paper": {
+    "title": "ARC-Prize\\",
+    "url": "https://arxiv.org/pdf/2412.04604",
+    "section": "Planning/Reasoning",
+    "year": "2412",
+    "priority": true,
+    "raw_line": "[**ARC-Prize**\\*](https://arxiv.org/pdf/2412.04604) (Latest methods for solving ARC-AGI problems) \\- 2024"
+  },
+  "processed_at": "2025-07-07T23:41:40.761491",
+  "analyses_generated": [
+    "stage_1",
+    "stage_2",
+    "stage_3",
+    "stage_4",
+    "pseudocode"
+  ],
+  "api_used": true
+}

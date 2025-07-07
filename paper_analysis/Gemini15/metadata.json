@@ -1,0 +1,19 @@
+{
+  "paper": {
+    "title": "Gemini1.5",
+    "url": "https://arxiv.org/pdf/2403.05530",
+    "section": "Applications",
+    "year": "2403",
+    "priority": false,
+    "raw_line": "[Gemini1.5](https://arxiv.org/pdf/2403.05530) (Multimodal across 10MM context window) \\- 2024"
+  },
+  "processed_at": "2025-07-07T23:27:43.130180",
+  "analyses_generated": [
+    "stage_1",
+    "stage_2",
+    "stage_3",
+    "stage_4",
+    "pseudocode"
+  ],
+  "api_used": false
+}

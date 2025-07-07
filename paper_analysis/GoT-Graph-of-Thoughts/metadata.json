@@ -1,0 +1,19 @@
+{
+  "paper": {
+    "title": "GoT (Graph of Thoughts)",
+    "url": "https://arxiv.org/pdf/2308.09687",
+    "section": "Planning/Reasoning",
+    "year": "2201",
+    "priority": false,
+    "raw_line": "[**CoT**\\* (Chain of Thought)](https://arxiv.org/pdf/2201.11903)/[ToT (Tree of Thoughts)](https://arxiv.org/pdf/2305.10601)/[GoT (Graph of Thoughts)](https://arxiv.org/pdf/2308.09687)/[Meta CoT](https://arxiv.org/pdf/2501.04682) \\- 2022/2023/2023/2025"
+  },
+  "processed_at": "2025-07-07T23:27:33.923920",
+  "analyses_generated": [
+    "stage_1",
+    "stage_2",
+    "stage_3",
+    "stage_4",
+    "pseudocode"
+  ],
+  "api_used": false
+}

@@ -1,0 +1,11 @@
+Here is a summary in the style of Andrej Karpathy on evaluating large language models (LLMs) for open-ended tasks like following instructions in multi-turn dialogues:
+
+The Challenge: Traditional language model benchmarks like MMLU and HELM focus narrowly on tasks like multiple-choice QA or knowledge retrieval. However, they fail to properly evaluate the key attribute we care about for conversational AI assistants - how well they align with human preferences on open-ended, multi-turn tasks that require adhering to instructions.
+
+Proposed Solution: To bridge this gap, we introduce two new benchmarks centered around human ratings: 1) MT-bench - a set of open-ended, multi-turn dialogue questions carefully designed to test reasoning, math skills, and other core capabilities. 2) Chatbot Arena - a crowdsourced platform where humans engage in open-ended conversations with different chatbot models and rate their performance based on personal preferences.
+
+LLM-as-a-Judge: While human evaluation is the gold standard, it is extremely costly and slow to obtain at scale. We therefore explore using state-of-the-art language models like GPT-4 as an automated surrogate to approximate human judgments. Since these LLMs are trained using reinforcement learning from human feedback (RLHF), they have already internalized many aspects of human preferences.
+
+Key Findings: By systematically comparing the LLM-as-a-judge approach to ground truth human ratings on our new benchmarks, we validate that LLM judges can indeed match crowdsourced human preferences extremely well, achieving over 80% agreement (the same as between humans!). However, we also identify key limitations like position bias, verbosity preferences, limited reasoning capabilities and propose ways to mitigate them.
+
+Implications: LLM-as-a-judge provides a scalable and explainable way to approximate the expensive process of eliciting human preferences directly. This automated evaluation unlocks our ability to better optimize huge language models towards true alignment with human preferences on open-ended tasks - a key step towards safe and useful AI assistants. Our benchmarks and datasets are publicly released.
