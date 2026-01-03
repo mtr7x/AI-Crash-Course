@@ -1,6 +1,6 @@
-# Zero to Frontier AI - Usage Guide
+# AI Crash Course, Decoded — Usage Guide
 
-A structured learning path to understand modern AI in 2 weeks, with 37 pre-analyzed papers and plain English explanations.
+**37 papers. 5 perspectives. Plain English.**
 
 ## Overview
 

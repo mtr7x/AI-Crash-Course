@@ -1,6 +1,6 @@
-# Zero to Frontier AI
+# AI Crash Course, Decoded
 
-**A structured learning path to understand modern AI in 2 weeks.**
+**37 papers. 5 perspectives. Plain English.**
 
 Whether you're a developer, researcher, or builder - this guide takes you from foundational concepts to the cutting edge of AI research. Every paper has been analyzed from multiple perspectives to accelerate your understanding.
 
@@ -140,7 +140,7 @@ Start here if papers feel intimidating:
 
 | Guide | What It Covers |
 |-------|----------------|
-| [Zero to Frontier](explanations/zero-to-frontier.md) | Complete journey from neural nets to DeepSeek R1 |
+| [From Neural Nets to Frontier Models](explanations/zero-to-frontier.md) | Complete journey from basics to DeepSeek R1 |
 | [AI Coding Agents](explanations/ai-coding-agents.md) | SWE-Bench, SWE-Agent, and the future of AI coding |
 
 ---
@@ -224,10 +224,10 @@ paper_processor.py      # Analysis pipeline
 
 ## How to Use This Guide
 
-1. **Follow the 2-week path** - Papers are ordered intentionally
-2. **Read starred papers (⭐) first** - These are load-bearing
-3. **Use the plain English guides** - Start with `explanations/` if papers feel dense
-4. **Launch the web viewer** - See all 37 papers with multiple analysis perspectives
+1. **Start with plain English** - Read `explanations/` first if papers feel dense
+2. **Follow the 2-week path** - Papers are ordered intentionally
+3. **Prioritize starred papers (⭐)** - These are load-bearing
+4. **Use the web viewer** - Browse all 37 papers with 5 analysis perspectives
 5. **Build something** - Understanding comes from implementation
 
 ---

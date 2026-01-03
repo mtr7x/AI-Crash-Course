@@ -1,55 +1,69 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to Claude Code when working with this repository.
 
 ## Repository Overview
 
-This is the **AI Crash Course** repository - a curated educational resource designed to help busy builders catch up to the public frontier of AI research in 2 weeks. It's a fork of Henry Shi's original work and serves as a comprehensive reading list and learning path for AI fundamentals.
+**AI Crash Course, Decoded** — 37 papers, 5 perspectives, plain English.
+
+A fork of Henry Shi's AI Crash Course, expanded with:
+- **37 papers** analyzed from 5 perspectives
+- **Plain English guides** for beginners
+- **Interactive web viewer** for exploration
+- **2-week structured curriculum**
 
 ## Repository Structure
 
-This is a documentation-focused repository containing:
-- **README.md**: The main course curriculum with structured learning paths
-- **CNAME**: GitHub Pages configuration for hosting at a custom domain
-- **LICENSE**: MIT license for the repository
+```
+├── README.md                # Main curriculum (2-week learning path)
+├── QUICK_START.md           # Quick start guide
+├── explanations/            # Plain English guides
+│   ├── zero-to-frontier.md  # Neural nets → frontier models
+│   └── ai-coding-agents.md  # SWE-Bench & coding agents
+├── paper_analysis/          # 37 papers × 5 analyses each
+│   ├── Transformers/
+│   ├── GPT3/
+│   ├── DeepSeek-R1/
+│   └── ...
+├── web_server.py            # Interactive viewer server
+├── viewer.html              # Web interface
+├── paper_processor.py       # Analysis pipeline
+└── requirements.txt         # Python dependencies
+```
 
-## Content Organization
+## Key Files
 
-The README.md serves as the primary curriculum and is organized into several key sections:
-
-### Learning Path Structure
-1. **Foundation**: Neural Network to LLM video series
-2. **Survey Papers**: Broad overviews of LLM, Agent, and Prompt Engineering research
-3. **Research Papers**: Organized by topic areas:
-   - **Foundational Modelling** (Transformers, GPT-3, RLHF, etc.)
-   - **Planning/Reasoning** (CoT, ReACT, DeepSeek R1, etc.)
-   - **Applications** (Toolformer, Llama3, SWE-Agent, etc.)
-   - **Benchmarks** (BIG-Bench, SWE-Bench, Chatbot Arena)
-4. **Supplementary Resources**: Videos, websites, and additional learning materials
-
-### Key Features
-- Papers are prioritized with star (*) ratings for essential reading
-- Chronological organization showing evolution of AI research (2017-2025)
-- Mix of foundational theory and practical applications
-- Focus on both model development and real-world deployment
+| File | Purpose |
+|------|---------|
+| `README.md` | 2-week curriculum with paper links |
+| `explanations/*.md` | Beginner-friendly guides |
+| `paper_analysis/*/stage_1_analysis.md` | Technical deep-dive |
+| `paper_analysis/*/stage_2_analysis.md` | Educational breakdown |
+| `paper_analysis/*/stage_3_analysis.md` | Developer perspective |
+| `paper_analysis/*/stage_4_analysis.md` | Strategic analysis |
+| `paper_analysis/*/pseudocode.md` | Implementation algorithms |
 
 ## Common Tasks
 
-Since this is a documentation repository, typical tasks involve:
-- **Content Updates**: Adding new papers, resources, or reorganizing sections
-- **Link Maintenance**: Ensuring all arXiv links and external resources remain accessible
-- **Curriculum Enhancement**: Expanding learning paths or adding new topic areas
-- **Format Improvements**: Enhancing readability and organization
+**Adding new papers:**
+1. Add paper link to README.md in appropriate section
+2. Run `python paper_processor.py`
+3. New analysis appears in `paper_analysis/`
 
-## Working with the Content
+**Adding explanations:**
+1. Create new `.md` file in `explanations/`
+2. Update README.md to link to it
 
-When updating the curriculum:
-- Maintain the chronological flow within each section
-- Use the star (*) system consistently for priority marking
-- Keep the balance between theory and practical applications
-- Ensure new additions fit the "2-week crash course" scope and difficulty level
-- Follow the existing markdown formatting patterns for consistency
+**Running the viewer:**
+```bash
+pip install -r requirements.txt
+python web_server.py
+# Open http://localhost:8080
+```
 
-## Repository Context
+## Writing Style
 
-This repository is hosted on GitHub Pages and serves as an educational resource for the AI community. Changes should focus on improving the learning experience while maintaining the curated, high-quality nature of the content.
+- Papers use star (⭐) for priority marking
+- Explanations use first-principles, conversational tone
+- Keep content accessible to builders with varying backgrounds
+- Balance technical depth with clarity

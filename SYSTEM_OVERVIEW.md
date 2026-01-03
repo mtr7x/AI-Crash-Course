@@ -1,11 +1,12 @@
-# Zero to Frontier AI - System Overview
+# AI Crash Course, Decoded — System Overview
 
-## What This Is
+**37 papers. 5 perspectives. Plain English.**
 
-A structured learning path to understand modern AI in 2 weeks, with:
+What's included:
 - **37 papers** analyzed from 5 perspectives
 - **Plain English guides** for beginners
 - **Interactive web viewer** for exploration
+- **2-week structured curriculum**
 
 ## 🏗️ System Architecture
 

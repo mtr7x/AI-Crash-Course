@@ -1,64 +1,53 @@
 # Quick Start
 
-## Option 1: Read the Papers
+**AI Crash Course, Decoded** — 37 papers, 5 perspectives, plain English.
 
-Follow the 2-week learning path in [README.md](README.md):
+---
+
+## Option 1: Plain English First
+
+Start here if papers feel intimidating:
+
+| Guide | What It Covers |
+|-------|----------------|
+| [From Neural Nets to Frontier Models](explanations/zero-to-frontier.md) | Transformers → GPT → RLHF → Reasoning |
+| [AI Coding Agents](explanations/ai-coding-agents.md) | SWE-Bench, SWE-Agent, future of AI coding |
+
+---
+
+## Option 2: Follow the 2-Week Path
+
+See [README.md](README.md) for the structured curriculum:
 - **Week 1**: Foundations (Transformers, Scaling, Alignment)
 - **Week 2**: Frontier (Reasoning, Agents, State of the Art)
 
-## Option 2: Start with Plain English
+---
 
-If papers feel dense, start with the explanations:
-
-```
-explanations/
-├── zero-to-frontier.md    # Complete AI journey explained simply
-└── ai-coding-agents.md    # SWE-Bench & coding agents explained
-```
-
-## Option 3: Launch the Interactive Viewer
+## Option 3: Interactive Viewer
 
 ```bash
-# Install dependencies
 pip install -r requirements.txt
-
-# Start the web server
 python web_server.py
-
 # Open http://localhost:8080
 ```
 
-Browse 37 pre-analyzed papers with 5 perspectives each:
-- Precision Analysis
-- Educational Breakdown
-- Developer Perspective
-- Strategic Analysis
-- Pseudocode
+Browse 37 papers with 5 analysis perspectives each.
 
-## Option 4: Re-analyze with Your Own API
+---
+
+## Option 4: Re-analyze with Your API
 
 ```bash
-# Configure API
 export OPENAI_API_KEY="sk-..."
-# or
-export ANTHROPIC_API_KEY="..."
-
-# Run analysis
 python paper_processor.py
 ```
 
 ---
 
-## What's in This Repo
+## What's Here
 
-| Folder/File | What It Contains |
-|-------------|------------------|
-| `paper_analysis/` | 37 papers, 5 analyses each (185 files) |
+| Folder | Contents |
+|--------|----------|
 | `explanations/` | Plain English guides |
-| `web_server.py` | Interactive viewer server |
-| `viewer.html` | Web interface |
-| `paper_processor.py` | Analysis pipeline |
-
----
-
-**Start here**: Read `explanations/zero-to-frontier.md`, then follow the 2-week path.
+| `paper_analysis/` | 37 papers × 5 analyses |
+| `web_server.py` | Interactive viewer |
