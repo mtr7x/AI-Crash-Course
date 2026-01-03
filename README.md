@@ -1,218 +1,243 @@
-# Making AI-Crash-Course - More Digestable
-AI Crash Course to help busy builders catch up to the public frontier of AI research in 2 weeks
+# Zero to Frontier AI
 
-**Intro:**  Fork of [Henry Shi](https://www.linkedin.com/in/henrythe9th/) 
+**A structured learning path to understand modern AI in 2 weeks.**
 
-For more context, checkout the [original twitter thread](https://x.com/henrythe9ths/status/1877056425454719336)
-
-**Start Here:**  
-[Neural Network \-\> LLM Series](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
-
-**Then get up to speed via Survey papers:**
-
-- Follow the ideas in the survey paper that interest you and dig deeper
-
-[LLM Survey](https://arxiv.org/pdf/2402.06196v2) \- 2024  
-[Agent Survey](https://arxiv.org/pdf/2308.11432) \- 2023  
-[Prompt Engineering Survey](https://arxiv.org/pdf/2406.06608) \- 2024
-
-**AI Papers:** (prioritize ones with star \*)
-
-**Foundational Modelling:**  
-[**Transformers**\*](https://arxiv.org/pdf/1706.03762) (foundation, self-attention) \- 2017  
-[Scaling Laws](https://arxiv.org/pdf/2001.08361)/[**GPT3**\*](https://arxiv.org/pdf/2005.14165) (conviction to scale up GPT2/3/4) \- 2020  
-[LoRA](https://arxiv.org/abs/2106.09685) (Fine tuning) \- 2021  
-[Training Compute-Optimal LLMs](https://arxiv.org/pdf/2203.15556) \- 2022  
-[**RLHF**\*](https://arxiv.org/pdf/2203.02155) (InstructGPT-\>ChatGPT) \- 2022  
-[DPO](https://arxiv.org/pdf/2305.18290) (No need for RL/Reward model) \- 2023  
-[LLM-as-Judge](https://arxiv.org/pdf/2306.05685) (On par with human evaluations) \- 2023  
-[MoE](https://arxiv.org/pdf/2401.04088) (MIxture of Experts) \- 2024  
-
-**Planning/Reasoning:**  
-[AlphaZero](https://arxiv.org/pdf/1712.01815)/[**MuZero**\*](https://arxiv.org/pdf/1911.08265) (RL without prior knowledge of game or rules) \- 2017/2019  
-[**CoT**\* (Chain of Thought)](https://arxiv.org/pdf/2201.11903)/[ToT (Tree of Thoughts)](https://arxiv.org/pdf/2305.10601)/[GoT (Graph of Thoughts)](https://arxiv.org/pdf/2308.09687)/[Meta CoT](https://arxiv.org/pdf/2501.04682) \- 2022/2023/2023/2025  
-[ReACT](https://arxiv.org/pdf/2210.03629) (Generate reasoning traces and task-specific actions in interleaved manner) \- 2022  
-[Let’s Verify Step by Step](https://arxiv.org/pdf/2305.20050) (Process \> Outcome) \- 2023  
-[**ARC-Prize**\*](https://arxiv.org/pdf/2412.04604) (Latest methods for solving ARC-AGI problems) \- 2024  
-[**DeepSeek R1**\*](https://arxiv.org/pdf/2501.12948v1) (Building OSS o1-level reasoning model with pure RL, no SFT, no RM) \- 2025
-
-**Applications:**  
-[Toolformer](https://arxiv.org/pdf/2302.04761) (LLMs to use tools) \- 2023  
-[GPT4](https://arxiv.org/pdf/2303.08774) (Overview of GPT4, but fairly high level) \- 2023  
-[**Llama3**\*](https://arxiv.org/pdf/2407.21783) (In depth details of how Meta built Llama3 and the various configurations and hyperparameters) \- 2024  
-[Gemini1.5](https://arxiv.org/pdf/2403.05530) (Multimodal across 10MM context window) \- 2024  
-[Deepseekv3](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/DeepSeek_V3.pdf) (Building a frontier OSS model at a fraction of the cost of everyone else) \- 2024  
-[SWE-Agent](https://arxiv.org/pdf/2405.15793)/[OpenHands](https://arxiv.org/pdf/2407.16741) (OpenSource software development agents) \- 2024
-
-**Benchmarks:**  
-[BIG-Bench](https://arxiv.org/pdf/2206.04615) (First broad & diverse collaborative OSS benchmark) \- 2022  
-[SWE-Bench](https://arxiv.org/pdf/2310.06770) (Real world software development) \- 2023  
-[Chatbot Arena](https://arxiv.org/pdf/2403.04132) (Live human preference Elo ratings) \- 2024
-
-<hr />
-
-**Videos/Lectures:**  
-[3Blue1Brown on Foundational Math/Concepts](https://www.youtube.com/@3blue1brown)  
-[Build a Large Language Model (from Scratch) \#1 Bestseller](https://www.amazon.com/Build-Large-Language-Model-Scratch/dp/1633437167)  
-[Andrej Kaparthy: Zero to Hero Series](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)  
-[Yannic Kilcher Paper Explanations](https://www.youtube.com/@YannicKilcher)  
-[Noam Brown (o1 founder) on Planning in AI](https://www.youtube.com/watch?v=eaAonE58sLU)  
-[Stanford: Building LLMs](https://www.youtube.com/watch?v=9vM4p9NN0Ts)  
-[Foundations of LLMs](https://arxiv.org/pdf/2501.09223)  
-[Why You’re Not Too Old to Pivot Into AI](https://www.latent.space/p/not-old) (motivation)
-
-**Helpful Websites:**  
-[History of Deep Learning](https://github.com/adam-maj/deep-learning?tab=readme-ov-file) \- summary timeline of deeplearning with major breakthroughs and key concepts  
-[Full Stack Deep Learning](https://fullstackdeeplearning.com/) \- courses for building AI products  
-[Prompting Guide](https://www.promptingguide.ai/) \- extensive list of prompting techniques and examples  
-[a16z AI Cannon](https://a16z.com/ai-canon/) \- similar list of resources, but longer (slightly dated)  
-[2025 AI Engineer Reading List](https://www.latent.space/p/2025-papers) \- longer reading list, broken out by focus area  
-[State of Generative Models 2024](https://nrehiew.github.io/blog/2024/) \- good simple summary of current state
-
-**Others (non LLMs):**  
-[Vision Transformer](https://arxiv.org/pdf/2010.11929) (no need for CNNs) \- 2021  
-[Latent Diffusion](https://arxiv.org/pdf/2112.10752) (Text-to-Image) \- 2021
-
-**Obvious/easy papers (to get your feet wet if you're new to papers):**  
-[CoT (Chain of Thought)](https://arxiv.org/pdf/2201.11903) \- 2022  
-[SELF-REFINE: Iterative Refinement with Self-Feedback](https://arxiv.org/pdf/2303.17651) \- 2023  
+Whether you're a developer, researcher, or builder - this guide takes you from foundational concepts to the cutting edge of AI research. Every paper has been analyzed from multiple perspectives to accelerate your understanding.
 
 ---
 
-## 🤖 AI Paper Analysis System
+## Learning Path
 
-This repository now includes a **comprehensive AI paper analysis system** that automatically processes and analyzes all papers listed above. The system provides deep insights into cutting-edge AI research through multiple analytical perspectives.
+### Week 1: Foundations
 
-### ✨ Features
+**Day 1-2: Neural Network Intuition**
 
-**📊 Comprehensive Coverage**
-- **37 papers** automatically extracted from this README
-- **Priority papers** (starred) analyzed first
-- Coverage across all categories: Foundational Models, Planning/Reasoning, Applications, Benchmarks
+Start here. Build visual intuition before diving into papers.
 
-**🔍 Multi-Perspective Analysis**
-- **Precision Analysis**: Technical deep-dive with mathematical rigor
-- **Karpathy Style**: Clear, educational explanations with practical insights
-- **Swyx Style**: Industry-focused analysis with business implications
-- **Elad Gil Style**: Strategic perspective for builders and entrepreneurs
-- **Implementation Pseudocode**: Algorithmic breakdowns for developers
+| Resource | What You'll Learn |
+|----------|-------------------|
+| [Neural Network → LLM Series](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) | Visual intuition for how neural nets actually work |
+| [3Blue1Brown](https://www.youtube.com/@3blue1brown) | The math behind deep learning, made beautiful |
 
-**🌐 Interactive Web Interface**
-- Modern, responsive design with accessibility support
-- Real-time search and filtering by category/priority
-- Side-by-side paper comparison
-- Progress tracking and analysis status
-- Keyboard navigation and mobile-friendly
+**Day 3-4: The Transformer**
 
-**⚙️ Flexible API Integration**
-- **OpenAI** (GPT-4, GPT-3.5) support
-- **Anthropic** (Claude) integration
-- **Local LLM** compatibility (Ollama, LM Studio, etc.)
-- Secure local storage of API keys
-- Real-time analysis with progress tracking
+Everything in modern AI builds on this. Learn it cold.
 
-### 🚀 Quick Start
+| Paper | Year | Why It Matters |
+|-------|------|----------------|
+| [Transformers](https://arxiv.org/pdf/1706.03762) ⭐ | 2017 | The architecture behind GPT, Claude, Gemini - everything |
 
-**1. Clone and Setup**
+**Day 5-6: Scaling & Training**
+
+The insight that drove the AI explosion.
+
+| Paper | Year | Why It Matters |
+|-------|------|----------------|
+| [Scaling Laws](https://arxiv.org/pdf/2001.08361) | 2020 | Why bigger models keep getting better |
+| [GPT-3](https://arxiv.org/pdf/2005.14165) ⭐ | 2020 | The paper that proved scaling works |
+| [Training Compute-Optimal LLMs](https://arxiv.org/pdf/2203.15556) | 2022 | Chinchilla - how to train efficiently |
+
+**Day 7: Alignment**
+
+Making models helpful, not just capable.
+
+| Paper | Year | Why It Matters |
+|-------|------|----------------|
+| [RLHF / InstructGPT](https://arxiv.org/pdf/2203.02155) ⭐ | 2022 | How ChatGPT became ChatGPT |
+| [DPO](https://arxiv.org/pdf/2305.18290) | 2023 | Simpler alternative to RLHF |
+
+---
+
+### Week 2: The Frontier
+
+**Day 8-9: Reasoning**
+
+Teaching models to think.
+
+| Paper | Year | Why It Matters |
+|-------|------|----------------|
+| [Chain of Thought](https://arxiv.org/pdf/2201.11903) ⭐ | 2022 | "Let's think step by step" |
+| [Tree of Thoughts](https://arxiv.org/pdf/2305.10601) | 2023 | Exploring multiple reasoning paths |
+| [Let's Verify Step by Step](https://arxiv.org/pdf/2305.20050) | 2023 | Process beats outcome |
+| [DeepSeek R1](https://arxiv.org/pdf/2501.12948v1) ⭐ | 2025 | Pure RL for reasoning - the AlphaZero moment |
+
+**Day 10-11: Agents**
+
+Models that take action.
+
+| Paper | Year | Why It Matters |
+|-------|------|----------------|
+| [ReAct](https://arxiv.org/pdf/2210.03629) | 2022 | Reasoning + Acting interleaved |
+| [Toolformer](https://arxiv.org/pdf/2302.04761) | 2023 | Teaching LLMs to use tools |
+| [SWE-Agent](https://arxiv.org/pdf/2405.15793) | 2024 | AI that fixes real GitHub issues |
+| [OpenHands](https://arxiv.org/pdf/2407.16741) | 2024 | Open-source coding agent |
+
+**Day 12-13: State of the Art**
+
+What frontier models look like inside.
+
+| Paper | Year | Why It Matters |
+|-------|------|----------------|
+| [Llama 3](https://arxiv.org/pdf/2407.21783) ⭐ | 2024 | Most transparent look at building a frontier model |
+| [Gemini 1.5](https://arxiv.org/pdf/2403.05530) | 2024 | 10M context window, multimodal |
+| [DeepSeek V3](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/DeepSeek_V3.pdf) | 2024 | Frontier OSS model at fraction of cost |
+| [MoE](https://arxiv.org/pdf/2401.04088) | 2024 | Mixture of Experts architecture |
+
+**Day 14: Benchmarks & Evaluation**
+
+How we measure progress.
+
+| Paper | Year | Why It Matters |
+|-------|------|----------------|
+| [SWE-Bench](https://arxiv.org/pdf/2310.06770) | 2023 | Real-world software engineering |
+| [Chatbot Arena](https://arxiv.org/pdf/2403.04132) | 2024 | Live human preference rankings |
+| [ARC-Prize](https://arxiv.org/pdf/2412.04604) | 2024 | Testing general reasoning |
+
+---
+
+## Deep Dives
+
+### Survey Papers
+
+For comprehensive overviews:
+
+| Survey | Year | Coverage |
+|--------|------|----------|
+| [LLM Survey](https://arxiv.org/pdf/2402.06196v2) | 2024 | Complete landscape of LLMs |
+| [Agent Survey](https://arxiv.org/pdf/2308.11432) | 2023 | Autonomous AI agents |
+| [Prompt Engineering Survey](https://arxiv.org/pdf/2406.06608) | 2024 | Every prompting technique |
+
+### Planning & Search
+
+The AlphaGo lineage:
+
+| Paper | Year | Why It Matters |
+|-------|------|----------------|
+| [AlphaZero](https://arxiv.org/pdf/1712.01815) | 2017 | Self-play mastery |
+| [MuZero](https://arxiv.org/pdf/1911.08265) ⭐ | 2019 | Learning without knowing the rules |
+
+### Fine-Tuning
+
+Making models your own:
+
+| Paper | Year | Why It Matters |
+|-------|------|----------------|
+| [LoRA](https://arxiv.org/abs/2106.09685) | 2021 | Efficient fine-tuning |
+| [LLM-as-Judge](https://arxiv.org/pdf/2306.05685) | 2023 | AI evaluating AI |
+
+### Beyond Text
+
+| Paper | Year | Why It Matters |
+|-------|------|----------------|
+| [Vision Transformer](https://arxiv.org/pdf/2010.11929) | 2021 | Transformers for images |
+| [Latent Diffusion](https://arxiv.org/pdf/2112.10752) | 2021 | Foundation of Stable Diffusion |
+
+---
+
+## Plain English Explanations
+
+Start here if papers feel intimidating:
+
+| Guide | What It Covers |
+|-------|----------------|
+| [Zero to Frontier](explanations/zero-to-frontier.md) | Complete journey from neural nets to DeepSeek R1 |
+| [AI Coding Agents](explanations/ai-coding-agents.md) | SWE-Bench, SWE-Agent, and the future of AI coding |
+
+---
+
+## Interactive Paper Analysis
+
+This repo includes a **full analysis system** with 37 papers pre-analyzed.
+
+### Quick Start
+
 ```bash
-git clone https://github.com/yourusername/AI-Crash-Course.git
-cd AI-Crash-Course
+# Install dependencies
 pip install -r requirements.txt
-```
 
-**2. Start the Web Interface**
-```bash
+# Launch the web viewer
 python web_server.py
-```
-Then open http://localhost:8080 in your browser
 
-**3. Configure API Keys** (Optional)
-- Click the ⚙️ settings icon
-- Choose your provider (OpenAI/Anthropic/Local)
-- Enter your API key for real-time analysis
-- Or use existing placeholder analyses
-
-**4. Explore Papers**
-- Browse 37 pre-analyzed papers
-- Filter by category or search by title
-- View multiple analysis perspectives
-- Compare different papers side-by-side
-
-### 📁 What's Included
-
-**Analysis for Each Paper:**
-- `stage_1_analysis.md` - Precision technical analysis
-- `stage_2_analysis.md` - Karpathy-style educational breakdown
-- `stage_3_analysis.md` - Swyx-style industry insights  
-- `stage_4_analysis.md` - Elad Gil-style strategic analysis
-- `pseudocode.md` - Implementation algorithms
-- `original_content.txt` - Full paper content
-- `metadata.json` - Paper metadata and processing info
-
-**System Components:**
-- `paper_processor.py` - Automatic paper extraction and analysis
-- `web_server.py` - Flask web server with API endpoints
-- `viewer.html` - Interactive web interface
-- `document_analysis_prompts.md` - Analysis prompt templates
-
-### 🎯 Use Cases
-
-**For Students & Researchers:**
-- Quick overview of important AI papers
-- Multiple learning perspectives for complex topics
-- Implementation guidance through pseudocode
-- Chronological understanding of AI development
-
-**For Industry Professionals:**
-- Business implications of AI breakthroughs
-- Strategic insights for product development
-- Technical implementation roadmaps
-- Market impact assessments
-
-**For Developers:**
-- Algorithmic breakdowns for implementation
-- Code-ready pseudocode examples
-- Technical deep-dives with mathematical details
-- Integration patterns and best practices
-
-### 🔧 Advanced Usage
-
-**Re-analyze with Your Own API:**
-```bash
-# Set your API key
-export OPENAI_API_KEY="your-key-here"
-# or
-export ANTHROPIC_API_KEY="your-key-here"
-
-# Run analysis
-python paper_processor.py
+# Open http://localhost:8080
 ```
 
-**Add New Papers:**
-1. Add paper links to this README
-2. Run `python paper_processor.py` 
-3. New analyses appear automatically in the web interface
+### What You Get
 
-**Customize Analysis Styles:**
-- Edit `document_analysis_prompts.md` to modify analysis perspectives
-- Create new analysis stages by adding prompt templates
-- Customize the web interface in `viewer.html`
+Every paper analyzed from **5 perspectives**:
 
-### 🏗️ Architecture
+| Analysis | Focus |
+|----------|-------|
+| Precision Analysis | Technical deep-dive, key insights |
+| Educational Breakdown | First-principles explanation |
+| Developer Perspective | Practical implications for builders |
+| Strategic Analysis | Business and market implications |
+| Pseudocode | Implementation algorithms |
 
-The system follows a modular design:
-- **Paper Extraction**: Automatically finds arXiv/PDF links in README
-- **Content Processing**: Downloads and processes paper content
-- **Multi-Stage Analysis**: Applies 4 different analytical frameworks
-- **Web Interface**: Provides interactive browsing and real-time analysis
-- **API Integration**: Supports multiple LLM providers with fallbacks
+### Project Structure
 
-### 📊 Current Status
+```
+paper_analysis/          # 37 papers, 5 analyses each
+├── Transformers/
+├── GPT3/
+├── DeepSeek-R1/
+└── ...
 
-- ✅ **37 papers** fully analyzed
-- ✅ **185 analysis files** generated (5 per paper)
-- ✅ **Web interface** with search and filtering
-- ✅ **API integration** for real-time analysis
-- ✅ **Documentation** and usage guides
+explanations/            # Plain English guides
+├── zero-to-frontier.md
+└── ai-coding-agents.md
 
-Experience the future of AI research analysis - where complex papers become accessible insights across multiple perspectives, helping you understand not just *what* the research says, but *why* it matters and *how* to apply it.
+web_server.py           # Interactive viewer
+viewer.html             # Web interface
+paper_processor.py      # Analysis pipeline
+```
+
+---
+
+## Additional Resources
+
+### Video Lectures
+
+| Resource | Best For |
+|----------|----------|
+| [Andrej Karpathy: Zero to Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ) | Building intuition through code |
+| [Yannic Kilcher](https://www.youtube.com/@YannicKilcher) | Paper walkthroughs |
+| [Stanford: Building LLMs](https://www.youtube.com/watch?v=9vM4p9NN0Ts) | Academic depth |
+| [Noam Brown on Planning](https://www.youtube.com/watch?v=eaAonE58sLU) | o1 founder on AI planning |
+
+### Books & Courses
+
+| Resource | Best For |
+|----------|----------|
+| [Build an LLM from Scratch](https://www.amazon.com/Build-Large-Language-Model-Scratch/dp/1633437167) | Hands-on understanding |
+| [Full Stack Deep Learning](https://fullstackdeeplearning.com/) | Production AI systems |
+| [Prompting Guide](https://www.promptingguide.ai/) | Prompting techniques |
+
+### Staying Current
+
+| Resource | What It Offers |
+|----------|----------------|
+| [History of Deep Learning](https://github.com/adam-maj/deep-learning) | Timeline of breakthroughs |
+| [2025 AI Engineer Reading List](https://www.latent.space/p/2025-papers) | Extended reading |
+| [State of Generative Models](https://nrehiew.github.io/blog/2024/) | Current landscape |
+
+---
+
+## How to Use This Guide
+
+1. **Follow the 2-week path** - Papers are ordered intentionally
+2. **Read starred papers (⭐) first** - These are load-bearing
+3. **Use the plain English guides** - Start with `explanations/` if papers feel dense
+4. **Launch the web viewer** - See all 37 papers with multiple analysis perspectives
+5. **Build something** - Understanding comes from implementation
+
+---
+
+## Credits
+
+Fork of [Henry Shi's](https://www.linkedin.com/in/henrythe9th/) original AI Crash Course.
+
+See the [original Twitter thread](https://x.com/henrythe9ths/status/1877056425454719336) for context.
+
+---
+
+**The best way to learn is to build.** Start with the Transformer paper. Implement it. Break things. That's how you develop intuition.

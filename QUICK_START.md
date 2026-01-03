@@ -1,68 +1,64 @@
-# 🚀 Quick Start Guide
+# Quick Start
 
-## Launch the AI Paper Analysis System
+## Option 1: Read the Papers
 
-### 1. **Install Dependencies**
+Follow the 2-week learning path in [README.md](README.md):
+- **Week 1**: Foundations (Transformers, Scaling, Alignment)
+- **Week 2**: Frontier (Reasoning, Agents, State of the Art)
+
+## Option 2: Start with Plain English
+
+If papers feel dense, start with the explanations:
+
+```
+explanations/
+├── zero-to-frontier.md    # Complete AI journey explained simply
+└── ai-coding-agents.md    # SWE-Bench & coding agents explained
+```
+
+## Option 3: Launch the Interactive Viewer
+
 ```bash
+# Install dependencies
 pip install -r requirements.txt
-```
 
-### 2. **Start the Web Server**
-```bash
+# Start the web server
 python web_server.py
+
+# Open http://localhost:8080
 ```
 
-### 3. **Open in Browser**
-Visit: **http://localhost:8080**
+Browse 37 pre-analyzed papers with 5 perspectives each:
+- Precision Analysis
+- Educational Breakdown
+- Developer Perspective
+- Strategic Analysis
+- Pseudocode
 
-### 4. **Configure API Keys**
-1. Click the ⚙️ settings icon in the top-right corner
-2. Choose your AI provider:
-   - **OpenAI** (GPT-4) - Enter your `sk-...` API key
-   - **Anthropic** (Claude) - Enter your API key  
-   - **Local LLM** - Enter your local endpoint URL
-3. Click **Save Settings**
+## Option 4: Re-analyze with Your Own API
 
-### 5. **Generate Real AI Analysis**
-1. Click the green **🔄 Re-analyze Papers** button
-2. Watch the progress as papers are analyzed with real AI
-3. Explore the updated insights in real-time!
+```bash
+# Configure API
+export OPENAI_API_KEY="sk-..."
+# or
+export ANTHROPIC_API_KEY="..."
 
----
-
-## ✨ What You'll Get
-
-- **4 Analysis Perspectives** per paper:
-  - 🎯 **Precision Analysis**: Key insights, surprises, and quotes
-  - 🧠 **Karpathy Style**: Technical depth with first-principles thinking
-  - 💻 **Swyx Style**: Developer-focused community insights
-  - 💼 **Elad Gil Style**: Strategic business implications
-
-- **Implementation Pseudocode** for each paper's core algorithms
-
-- **Professional Interface** with search, filtering, and full accessibility
+# Run analysis
+python paper_processor.py
+```
 
 ---
 
-## 🔐 Privacy & Security
+## What's in This Repo
 
-- ✅ API keys stored locally in your browser only
-- ✅ Keys never transmitted to our servers
-- ✅ Clear security notices and best practices
-- ✅ Easy to clear data when needed
-
----
-
-## 🎯 Current Papers Analyzed
-
-1. **Transformers** (2017) - ⭐ Priority paper
-2. **LLM Survey** (2024) - Comprehensive overview
-3. **Agent Survey** (2023) - Autonomous agents
-4. **Prompt Engineering Survey** (2024) - Latest techniques
-5. **Scaling Laws** (2020) - Model scaling principles
+| Folder/File | What It Contains |
+|-------------|------------------|
+| `paper_analysis/` | 37 papers, 5 analyses each (185 files) |
+| `explanations/` | Plain English guides |
+| `web_server.py` | Interactive viewer server |
+| `viewer.html` | Web interface |
+| `paper_processor.py` | Analysis pipeline |
 
 ---
 
-**Ready to explore AI research with real AI insights?** 🤖
-
-Start with: `python web_server.py` then visit `http://localhost:8080`
+**Start here**: Read `explanations/zero-to-frontier.md`, then follow the 2-week path.

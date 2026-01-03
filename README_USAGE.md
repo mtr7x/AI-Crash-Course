@@ -1,6 +1,6 @@
-# AI Paper Analysis System
+# Zero to Frontier AI - Usage Guide
 
-A comprehensive system for analyzing AI research papers with multiple analytical perspectives and an intuitive viewing interface.
+A structured learning path to understand modern AI in 2 weeks, with 37 pre-analyzed papers and plain English explanations.
 
 ## Overview
 
@@ -55,7 +55,7 @@ README.md → Extract Links → Fetch Content → 4-Stage Analysis → Generate 
 ```
 paper_analysis/
 ├── index.json                 # Master index of all papers
-├── attention-is-all-you-need/
+├── Transformers/
 │   ├── metadata.json         # Paper metadata
 │   ├── original_content.txt  # Raw paper content
 │   ├── stage_1_analysis.md   # Precision analysis
@@ -63,8 +63,12 @@ paper_analysis/
 │   ├── stage_3_analysis.md   # Swyx style
 │   ├── stage_4_analysis.md   # Elad Gil style
 │   └── pseudocode.md         # Implementation pseudocode
-└── [other-papers]/
+└── [36 other papers]/
     └── [same structure]
+
+explanations/
+├── zero-to-frontier.md     # Complete AI journey explained simply
+└── ai-coding-agents.md     # SWE-Bench & coding agents explained
 ```
 
 ## Analysis Stages

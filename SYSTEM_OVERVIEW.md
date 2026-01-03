@@ -1,8 +1,11 @@
-# AI Paper Analysis System - Complete Overview
+# Zero to Frontier AI - System Overview
 
-## 🎯 What We Built
+## What This Is
 
-A comprehensive system that automatically analyzes AI research papers with multiple perspectives and provides an intuitive web interface for exploration. The system successfully processed 5 papers from the AI Crash Course README and generated structured analyses.
+A structured learning path to understand modern AI in 2 weeks, with:
+- **37 papers** analyzed from 5 perspectives
+- **Plain English guides** for beginners
+- **Interactive web viewer** for exploration
 
 ## 🏗️ System Architecture
 
@@ -52,7 +55,11 @@ paper_analysis/
 │   ├── stage_3_analysis.md      #   - Structured insights
 │   ├── stage_4_analysis.md      #   - Business implications
 │   └── pseudocode.md            #   - Implementation code
-└── [4 other papers with same structure]
+└── [36 other papers with same structure]
+
+explanations/
+├── zero-to-frontier.md     # Complete AI journey explained simply
+└── ai-coding-agents.md     # SWE-Bench & coding agents explained
 ```
 
 ## 🎨 Design Excellence (Julie Zhou Principles)
