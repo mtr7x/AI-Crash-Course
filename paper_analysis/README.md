@@ -1,6 +1,6 @@
 # Paper Analyses
 
-**36 papers. 5 perspectives each. Browse directly on GitHub.**
+**37 papers. 5 perspectives each. Browse directly on GitHub.**
 
 [← Back to Home](../README.md)
 
@@ -57,6 +57,7 @@ The foundational papers that everything else builds on:
 - [Llama3 ⭐](Llama3/) (2024)
 - [OpenHands](OpenHands/) (2024)
 - [SWE-Agent](SWE-Agent/) (2024)
+- [DeepSeek v3](Deepseekv3/) (2024)
 
 ### Benchmarks
 
@@ -71,7 +72,7 @@ The foundational papers that everything else builds on:
 
 ### Helpful Websites
 
-- [History of Deep Learning](History-of-Deep-Learning/) ()
+- [History of Deep Learning](History-of-Deep-Learning/)
 
 ### Obvious/easy papers (to get your feet wet if you're new to papers)
 

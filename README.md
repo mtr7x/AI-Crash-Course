@@ -45,7 +45,7 @@ Pick the perspective that matches how you learn. Or read all five to fully inter
 
 ## Browse All Papers
 
-**[View all 36 paper analyses →](paper_analysis/)**
+**[View all 37 paper analyses →](paper_analysis/)**
 
 Organized by category: Foundations, Reasoning, Agents, Benchmarks, and more.
 
@@ -64,8 +64,8 @@ Organized by category: Foundations, Reasoning, Agents, Benchmarks, and more.
 
 ```bash
 pip install -r requirements.txt
-python paper_processor.py  # Re-analyze papers with your API key
-python web_server.py       # Optional local viewer
+python tools/paper_processor.py  # Re-analyze papers with your API key
+python web_server.py             # Optional local viewer
 ```
 
 </details>
