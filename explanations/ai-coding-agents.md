@@ -1,5 +1,12 @@
-# SWE-Bench & SWE-Agent: Teaching AI to Actually Code
-*Explained Karpathy-style*
+# AI Coding Agents
+
+> How AI learned to fix real GitHub issues, not just write toy functions.
+
+**TL;DR:** SWE-Bench tests whether AI can fix real bugs in real codebases. SWE-Agent is an agent architecture that thinks, searches files, edits code, and verifies fixes. With good scaffolding, models go from 2% to 49% accuracy.
+
+[Back to Home](../README.md) · [Paper Analyses](../paper_analysis/)
+
+---
 
 ## The Problem
 
@@ -81,7 +88,7 @@ It's a **ReAct-style agent** specialized for coding:
 │                                         │
 │  Thought: Let me verify with tests      │
 │  Action:  run_tests()                   │
-│  Obs:     All tests pass ✓              │
+│  Obs:     All tests pass              │
 └─────────────────────────────────────────┘
                     ↓
 ┌─────────────────────────────────────────┐
@@ -170,10 +177,17 @@ This is why everyone's building coding agents now. It's one of the clearest path
 
 ## Key Papers
 
-- [SWE-Bench](https://arxiv.org/pdf/2310.06770) - The benchmark (2023)
-- [SWE-Agent](https://arxiv.org/pdf/2405.15793) - The agent architecture (2024)
-- [OpenHands](https://arxiv.org/pdf/2407.16741) - Open source alternative (2024)
+| Paper | Analysis | Year |
+|-------|----------|------|
+| [SWE-Bench](https://arxiv.org/pdf/2310.06770) | [5 perspectives](../paper_analysis/SWE-Bench/) | 2023 |
+| [SWE-Agent](https://arxiv.org/pdf/2405.15793) | [5 perspectives](../paper_analysis/SWE-Agent/) | 2024 |
+| [OpenHands](https://arxiv.org/pdf/2407.16741) | [5 perspectives](../paper_analysis/OpenHands/) | 2024 |
+| [ReAct](https://arxiv.org/pdf/2210.03629) | [5 perspectives](../paper_analysis/ReACT/) | 2022 |
 
 ---
 
-*The future is agents that can navigate real codebases and ship real fixes. We're maybe 1-2 years from this being genuinely useful day-to-day.*
+The future is agents that can navigate real codebases and ship real fixes. We're maybe 1-2 years from this being genuinely useful day-to-day.
+
+---
+
+[Back to Home](../README.md) · [Full Curriculum](../curriculum.md) · [All Paper Analyses](../paper_analysis/)

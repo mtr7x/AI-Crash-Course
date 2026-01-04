@@ -1,5 +1,10 @@
-# The Karpathy Guide to Modern AI
-*From zero to the frontier, explained simply*
+# From Neural Nets to Frontier Models
+
+> Plain English guide to modern AI — no jargon, just intuition.
+
+**TL;DR:** Neural nets are just functions that learn from data. Transformers let them process everything at once. Scale them up on internet text, add human feedback, teach them to reason step-by-step, and you get GPT-4, Claude, and DeepSeek R1.
+
+[Back to Home](../README.md) · [Paper Analyses](../paper_analysis/)
 
 ---
 
@@ -298,14 +303,18 @@ The best way to learn is to build. Go train a model. Break things. That's how yo
 
 ## Key Papers
 
-- [Transformers](https://arxiv.org/pdf/1706.03762) - The architecture (2017)
-- [GPT-3 / Scaling Laws](https://arxiv.org/pdf/2005.14165) - Scale is all you need (2020)
-- [RLHF / InstructGPT](https://arxiv.org/pdf/2203.02155) - Making models helpful (2022)
-- [Chain of Thought](https://arxiv.org/pdf/2201.11903) - Let's think step by step (2022)
-- [DeepSeek R1](https://arxiv.org/pdf/2501.12948v1) - RL for reasoning (2025)
+| Paper | Analysis | Year |
+|-------|----------|------|
+| [Transformers](https://arxiv.org/pdf/1706.03762) | [5 perspectives](../paper_analysis/Transformers/) | 2017 |
+| [GPT-3](https://arxiv.org/pdf/2005.14165) | [5 perspectives](../paper_analysis/GPT3/) | 2020 |
+| [RLHF](https://arxiv.org/pdf/2203.02155) | [5 perspectives](../paper_analysis/RLHF/) | 2022 |
+| [Chain of Thought](https://arxiv.org/pdf/2201.11903) | [5 perspectives](../paper_analysis/CoT-Chain-of-Thought/) | 2022 |
+| [DeepSeek R1](https://arxiv.org/pdf/2501.12948v1) | [5 perspectives](../paper_analysis/DeepSeek-R1/) | 2025 |
 
 ---
 
-*Now go read the Transformer paper. Actually read it. Implement it from scratch. That's worth more than reading 100 summaries.*
+Now go read the Transformer paper. Actually read it. Implement it from scratch. That's worth more than reading 100 summaries.
 
-*Good luck. This stuff is genuinely exciting.*
+---
+
+[Back to Home](../README.md) · [Full Curriculum](../curriculum.md) · [All Paper Analyses](../paper_analysis/)
