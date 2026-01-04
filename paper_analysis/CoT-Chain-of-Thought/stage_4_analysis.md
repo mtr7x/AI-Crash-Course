@@ -1,4 +1,10 @@
-Here is a summary analyzing the strategic implications of chain-of-thought prompting for large language models, written from the perspective of Elad Gil:
+# CoT (Chain of Thought): Strategic Analysis
+
+> Business implications and market dynamics
+
+**TL;DR:** As an investor and advisor to founders, I'm excited about the potential of chain-of-thought prompting to unlock more powerful reasoning capabilities in large language models. This represents a key breakthrough that could create new product opportunities and reshape the competitive landscape.
+
+---
 
 As an investor and advisor to founders, I'm excited about the potential of chain-of-thought prompting to unlock more powerful reasoning capabilities in large language models. This represents a key breakthrough that could create new product opportunities and reshape the competitive landscape.
 
@@ -13,3 +19,12 @@ From a platform perspective, the ability to efficiently serve these massive mode
 More broadly, chain-of-thought prompting hints at an even more powerful paradigm of software development by instructing neural networks what to do, rather than manually coding rules and pipelines. For startups, being among the first to master this paradigm could yield immense strategic value and defensibility.
 
 The timing seems ripe to invest in solutions that harness chain-of-thought prompting. The technique is ready but underexplored, the large model trend is accelerating, and major platform shifts enable new defensible businesses. Key risks are engineering execution and finding talented teams that can lead the cutting-edge research and productization. But the potential rewards for those that succeed are immense - possibly a new data/AI platform to reshape entire industries.
+---
+
+### Other Perspectives
+
+[Precision Analysis](stage_1_analysis.md) · [Karpathy-Style Analysis](stage_2_analysis.md) · [Builder's Perspective](stage_3_analysis.md) · **Strategic Analysis** · [Pseudocode](pseudocode.md)
+
+---
+
+[← Back to CoT (Chain of Thought)](.) · [Original Paper](https://arxiv.org/pdf/2201.11903) · [All Papers](../)

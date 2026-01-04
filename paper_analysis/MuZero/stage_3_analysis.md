@@ -1,4 +1,11 @@
-Here's a summary in the style of Swyx (Shawn Wang) on the new MuZero algorithm from DeepMind:
+# MuZero: Builder's Perspective
+
+> What this means for developers shipping products
+
+**TL;DR:** The TL;DR**
+DeepMind just dropped a new AI model called MuZero that achieves state-of-the-art performance in complex environments like Atari games while also matching AlphaZero's superhuman skills in perfect information games like chess and Go. This is a big deal for developers pushing the bounda...
+
+---
 
 **The TL;DR**
 DeepMind just dropped a new AI model called MuZero that achieves state-of-the-art performance in complex environments like Atari games while also matching AlphaZero's superhuman skills in perfect information games like chess and Go. This is a big deal for developers pushing the boundaries of model-based reinforcement learning.
@@ -19,3 +26,12 @@ While the Atari and chess results are incredibly impressive, the real test will 
 That said, DeepMind has a strong track record of moving things from research into applied products. With MuZero's ability to learn directly from interactions instead of needing hand-coded rules or sims, it could have a big impact on complex, unbounded areas like intelligent assistants and decision support systems.
 
 There's a ton of potential here, but also the usual caveats around safety, scalability, and enabling inclusive development. I'm excited to see how the ecosystem evolves as more researchers, companies, and communities embrace this powerful new paradigm and shape it to their needs. The future is unwritten!
+---
+
+### Other Perspectives
+
+[Precision Analysis](stage_1_analysis.md) · [Karpathy-Style Analysis](stage_2_analysis.md) · **Builder's Perspective** · [Strategic Analysis](stage_4_analysis.md) · [Pseudocode](pseudocode.md)
+
+---
+
+[← Back to MuZero](.) · [Original Paper](https://arxiv.org/pdf/1911.08265) · [All Papers](../)

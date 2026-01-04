@@ -1,6 +1,12 @@
-Here is a summary capturing the distinctive style and perspective of Swyx (Shawn Wang) on the topic of large language model based autonomous agents:
+# Agent Survey: Builder's Perspective
 
-The Rise of LLM-Powered Autonomous Agents 🚀
+> What this means for developers shipping products
+
+**TL;DR:** For years, we've talked about artificial general intelligence (AGI) as the holy grail for AI. But it always felt like an academic pipe dream - until now.
+
+---
+
+The Rise of LLM-Powered Autonomous Agents 
 
 For years, we've talked about artificial general intelligence (AGI) as the holy grail for AI. But it always felt like an academic pipe dream - until now. Large language models are unlocking new possibilities for autonomous agents that can actually take self-directed actions in the real world.
 
@@ -13,3 +19,12 @@ Of course, there are still huge challenges around safety, scalability, and evalu
 The big players are getting in on the action, but there's still a lot of greenfield for entrepreneurial developers and researchers. We're in a period of rapid experimentation and iteration. My advice? Start playing around with these models and architectures now. Get involved in the communities discussing LLM agents. This is going to be a massive wave that shapes the future of AI and developer tools.
 
 It's still early days, but the convergence of LLMs and autonomous agents has incredible potential to transform how we build AI systems. The rise of these "generalist robots" may just be the path to achieving long-sought artificial general intelligence. Let's dive in!
+---
+
+### Other Perspectives
+
+[Precision Analysis](stage_1_analysis.md) · [Karpathy-Style Analysis](stage_2_analysis.md) · **Builder's Perspective** · [Strategic Analysis](stage_4_analysis.md) · [Pseudocode](pseudocode.md)
+
+---
+
+[← Back to Agent Survey](.) · [Original Paper](https://arxiv.org/pdf/2308.11432) · [All Papers](../)

@@ -1,3 +1,11 @@
+# Prompt Engineering Survey: Pseudocode
+
+> The core algorithm, readable
+
+**TL;DR:** Prompt Engineering Survey - Core Algorithm Pseudocode
+
+---
+
 # Prompt Engineering Survey - Core Algorithm Pseudocode
 
 ## Main Algorithm
@@ -26,3 +34,12 @@ COMPLEXITY: [Time/Space complexity if mentioned]
 - [Optimization 2]
 
 Generated on: 2025-07-07 23:43:11
+---
+
+### Other Perspectives
+
+[Precision Analysis](stage_1_analysis.md) · [Karpathy-Style Analysis](stage_2_analysis.md) · [Builder's Perspective](stage_3_analysis.md) · [Strategic Analysis](stage_4_analysis.md) · **Pseudocode**
+
+---
+
+[← Back to Prompt Engineering Survey](.) · [Original Paper](https://arxiv.org/pdf/2406.06608) · [All Papers](../)

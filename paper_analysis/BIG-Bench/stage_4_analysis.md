@@ -1,3 +1,11 @@
+# BIG-Bench: Strategic Analysis
+
+> Business implications and market dynamics
+
+**TL;DR:** Overview
+This is a placeholder analysis. To generate real AI-powered insights, configure your API keys in the web viewer settings.
+
+---
 
 # 4: Elad Gil Style Summary Analysis
 
@@ -23,4 +31,12 @@ Nie, Aman Hussain, Amanda Askell, Amanda Dsouza, ...
 5. Click "Re-analyze Papers" button to update with real AI analysis
 
 **Generated:** 2025-07-07 23:27:43
-        
+---
+
+### Other Perspectives
+
+[Precision Analysis](stage_1_analysis.md) · [Karpathy-Style Analysis](stage_2_analysis.md) · [Builder's Perspective](stage_3_analysis.md) · **Strategic Analysis** · [Pseudocode](pseudocode.md)
+
+---
+
+[← Back to BIG-Bench](.) · [Original Paper](https://arxiv.org/pdf/2206.04615) · [All Papers](../)

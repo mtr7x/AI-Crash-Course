@@ -1,4 +1,10 @@
-Here is a summary in the style of Andrej Karpathy explaining the LoRA paper:
+# LoRA: Karpathy-Style Analysis
+
+> First-principles technical explanation
+
+**TL;DR:** The field of natural language processing has seen incredible progress driven by large pre-trained language models like GPT-3. However, fully fine-tuning these massive models for every new task is computationally expensive and inefficient.
+
+---
 
 The field of natural language processing has seen incredible progress driven by large pre-trained language models like GPT-3. However, fully fine-tuning these massive models for every new task is computationally expensive and inefficient. The LoRA (Low-Rank Adaptation) paper presents an elegant solution to this problem.
 
@@ -13,3 +19,12 @@ But LoRA is more than just an optimization trick. It reveals an important insigh
 Of course, there are limitations. LoRA still requires storing the full pre-trained model, and its improvements are most pronounced for large models. There are also open questions around the theoretical underpinnings and optimal rank selection.
 
 Nonetheless, LoRA is an exciting development that enhances the practical viability of few-shot learning with giant language models. By disentangling general linguistic knowledge from task specialization, it opens a path towards more computationally efficient and environmentally sustainable adaptation of foundation models.
+---
+
+### Other Perspectives
+
+[Precision Analysis](stage_1_analysis.md) · **Karpathy-Style Analysis** · [Builder's Perspective](stage_3_analysis.md) · [Strategic Analysis](stage_4_analysis.md) · [Pseudocode](pseudocode.md)
+
+---
+
+[← Back to LoRA](.) · [Original Paper](https://arxiv.org/abs/2106.09685) · [All Papers](../)

@@ -1,3 +1,11 @@
+# Foundations of LLMs: Builder's Perspective
+
+> What this means for developers shipping products
+
+**TL;DR:** Overview
+This is a placeholder analysis. To generate real AI-powered insights, configure your API keys in the web viewer settings.
+
+---
 
 # 3: Swyx Style Summary Analysis
 
@@ -28,4 +36,12 @@ Licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported Licen
 5. Click "Re-analyze Papers" button to update with real AI analysis
 
 **Generated:** 2025-07-07 23:27:47
-        
+---
+
+### Other Perspectives
+
+[Precision Analysis](stage_1_analysis.md) · [Karpathy-Style Analysis](stage_2_analysis.md) · **Builder's Perspective** · [Strategic Analysis](stage_4_analysis.md) · [Pseudocode](pseudocode.md)
+
+---
+
+[← Back to Foundations of LLMs](.) · [Original Paper](https://arxiv.org/pdf/2501.09223) · [All Papers](../)

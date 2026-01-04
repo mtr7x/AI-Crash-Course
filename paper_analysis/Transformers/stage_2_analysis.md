@@ -1,4 +1,10 @@
-Here is a summary in the style of Andrej Karpathy on the "Attention Is All You Need" paper:
+# Transformers: Karpathy-Style Analysis
+
+> First-principles technical explanation
+
+**TL;DR:** The Transformer is a new neural network architecture that does away with the recurrent and convolutional components prevalent in sequence models. Instead, it relies entirely on attention mechanisms to draw connections between different parts of the input and output sequences.
+
+---
 
 The Transformer is a new neural network architecture that does away with the recurrent and convolutional components prevalent in sequence models. Instead, it relies entirely on attention mechanisms to draw connections between different parts of the input and output sequences.
 
@@ -13,3 +19,12 @@ In the encoder, self-attention layers process the input sequence. In the decoder
 The model achieves new state-of-the-art results in machine translation while being much more parallelizable and efficient to train than recurrent models. However, there are still open questions around generalizing self-attention to other modalities beyond text.
 
 The Transformer elegantly replaces the venerable RNN with a more parallelizable alternative built on self-attention. While more remains to be explored, it provides a fresh perspective on sequence modeling grounded in a first-principles rethinking of the fundamentals.
+---
+
+### Other Perspectives
+
+[Precision Analysis](stage_1_analysis.md) · **Karpathy-Style Analysis** · [Builder's Perspective](stage_3_analysis.md) · [Strategic Analysis](stage_4_analysis.md) · [Pseudocode](pseudocode.md)
+
+---
+
+[← Back to Transformers](.) · [Original Paper](https://arxiv.org/pdf/1706.03762) · [All Papers](../)

@@ -1,3 +1,15 @@
+# GPT3: Pseudocode
+
+> The core algorithm, readable
+
+**TL;DR:** Main Algorithm
+```
+ALGORITHM GPT3\
+INPUT: [Key inputs from paper]
+OUTPUT: [Key outputs from paper]
+
+---
+
 # GPT3\ - Core Algorithm Pseudocode
 
 ## Main Algorithm
@@ -26,3 +38,12 @@ COMPLEXITY: [Time/Space complexity if mentioned]
 - [Optimization 2]
 
 Generated on: 2025-07-07 23:40:42
+---
+
+### Other Perspectives
+
+[Precision Analysis](stage_1_analysis.md) · [Karpathy-Style Analysis](stage_2_analysis.md) · [Builder's Perspective](stage_3_analysis.md) · [Strategic Analysis](stage_4_analysis.md) · **Pseudocode**
+
+---
+
+[← Back to GPT3](.) · [Original Paper](https://arxiv.org/pdf/2005.14165) · [All Papers](../)

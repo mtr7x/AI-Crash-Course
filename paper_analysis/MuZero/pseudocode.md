@@ -1,3 +1,15 @@
+# MuZero: Pseudocode
+
+> The core algorithm, readable
+
+**TL;DR:** Main Algorithm
+```
+ALGORITHM MUZERO\
+INPUT: [Key inputs from paper]
+OUTPUT: [Key outputs from paper]
+
+---
+
 # MuZero\ - Core Algorithm Pseudocode
 
 ## Main Algorithm
@@ -26,3 +38,12 @@ COMPLEXITY: [Time/Space complexity if mentioned]
 - [Optimization 2]
 
 Generated on: 2025-07-07 23:41:37
+---
+
+### Other Perspectives
+
+[Precision Analysis](stage_1_analysis.md) · [Karpathy-Style Analysis](stage_2_analysis.md) · [Builder's Perspective](stage_3_analysis.md) · [Strategic Analysis](stage_4_analysis.md) · **Pseudocode**
+
+---
+
+[← Back to MuZero](.) · [Original Paper](https://arxiv.org/pdf/1911.08265) · [All Papers](../)

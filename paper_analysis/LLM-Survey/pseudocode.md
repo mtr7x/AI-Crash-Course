@@ -1,3 +1,15 @@
+# LLM Survey: Pseudocode
+
+> The core algorithm, readable
+
+**TL;DR:** Main Algorithm
+```
+ALGORITHM LLM_SURVEY
+INPUT: [Key inputs from paper]
+OUTPUT: [Key outputs from paper]
+
+---
+
 # LLM Survey - Core Algorithm Pseudocode
 
 ## Main Algorithm
@@ -26,3 +38,12 @@ COMPLEXITY: [Time/Space complexity if mentioned]
 - [Optimization 2]
 
 Generated on: 2025-07-07 23:42:25
+---
+
+### Other Perspectives
+
+[Precision Analysis](stage_1_analysis.md) · [Karpathy-Style Analysis](stage_2_analysis.md) · [Builder's Perspective](stage_3_analysis.md) · [Strategic Analysis](stage_4_analysis.md) · **Pseudocode**
+
+---
+
+[← Back to LLM Survey](.) · [Original Paper](https://arxiv.org/pdf/2402.06196v2) · [All Papers](../)

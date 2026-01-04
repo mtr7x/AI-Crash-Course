@@ -1,3 +1,11 @@
+# History of Deep Learning: Pseudocode
+
+> The core algorithm, readable
+
+**TL;DR:** History of Deep Learning - Core Algorithm Pseudocode
+
+---
+
 # History of Deep Learning - Core Algorithm Pseudocode
 
 ## Main Algorithm
@@ -26,3 +34,12 @@ COMPLEXITY: [Time/Space complexity if mentioned]
 - [Optimization 2]
 
 Generated on: 2025-07-07 23:27:49
+---
+
+### Other Perspectives
+
+[Precision Analysis](stage_1_analysis.md) · [Karpathy-Style Analysis](stage_2_analysis.md) · [Builder's Perspective](stage_3_analysis.md) · [Strategic Analysis](stage_4_analysis.md) · **Pseudocode**
+
+---
+
+[← Back to History of Deep Learning](.) · [Original Paper](https://github.com/adam-maj/deep-learning?tab=readme-ov-file) · [All Papers](../)

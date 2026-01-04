@@ -1,3 +1,11 @@
+# Let’s Verify Step by Step: Pseudocode
+
+> The core algorithm, readable
+
+**TL;DR:** Let’s Verify Step by Step - Core Algorithm Pseudocode
+
+---
+
 # Let’s Verify Step by Step - Core Algorithm Pseudocode
 
 ## Main Algorithm
@@ -26,3 +34,12 @@ COMPLEXITY: [Time/Space complexity if mentioned]
 - [Optimization 2]
 
 Generated on: 2025-07-07 23:27:38
+---
+
+### Other Perspectives
+
+[Precision Analysis](stage_1_analysis.md) · [Karpathy-Style Analysis](stage_2_analysis.md) · [Builder's Perspective](stage_3_analysis.md) · [Strategic Analysis](stage_4_analysis.md) · **Pseudocode**
+
+---
+
+[← Back to Let’s Verify Step by Step](.) · [Original Paper](https://arxiv.org/pdf/2305.20050) · [All Papers](../)

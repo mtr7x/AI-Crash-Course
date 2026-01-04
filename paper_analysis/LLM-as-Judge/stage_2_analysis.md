@@ -1,4 +1,13 @@
-Here is a summary in the style of Andrej Karpathy on evaluating large language models (LLMs) for open-ended tasks like following instructions in multi-turn dialogues:
+# LLM-as-Judge: Karpathy-Style Analysis
+
+> First-principles technical explanation
+
+**TL;DR:** Here is a summary in the style of Andrej Karpathy on evaluating large language models (LLMs) for open-ended tasks like following instructions in multi-turn dialogues
+
+---
+
+### Here is a summary in the style of Andrej Karpathy on evaluating large language models (LLMs) for open-ended tasks like following instructions in multi-turn dialogues
+
 
 The Challenge: Traditional language model benchmarks like MMLU and HELM focus narrowly on tasks like multiple-choice QA or knowledge retrieval. However, they fail to properly evaluate the key attribute we care about for conversational AI assistants - how well they align with human preferences on open-ended, multi-turn tasks that require adhering to instructions.
 
@@ -9,3 +18,12 @@ LLM-as-a-Judge: While human evaluation is the gold standard, it is extremely cos
 Key Findings: By systematically comparing the LLM-as-a-judge approach to ground truth human ratings on our new benchmarks, we validate that LLM judges can indeed match crowdsourced human preferences extremely well, achieving over 80% agreement (the same as between humans!). However, we also identify key limitations like position bias, verbosity preferences, limited reasoning capabilities and propose ways to mitigate them.
 
 Implications: LLM-as-a-judge provides a scalable and explainable way to approximate the expensive process of eliciting human preferences directly. This automated evaluation unlocks our ability to better optimize huge language models towards true alignment with human preferences on open-ended tasks - a key step towards safe and useful AI assistants. Our benchmarks and datasets are publicly released.
+---
+
+### Other Perspectives
+
+[Precision Analysis](stage_1_analysis.md) · **Karpathy-Style Analysis** · [Builder's Perspective](stage_3_analysis.md) · [Strategic Analysis](stage_4_analysis.md) · [Pseudocode](pseudocode.md)
+
+---
+
+[← Back to LLM-as-Judge](.) · [Original Paper](https://arxiv.org/pdf/2306.05685) · [All Papers](../)

@@ -1,4 +1,10 @@
-Here's a summary capturing the perspective and style of Swyx (Shawn Wang):
+# Training Compute-Optimal LLMs: Builder's Perspective
+
+> What this means for developers shipping products
+
+**TL;DR:** Developers, listen up! This paper from the DeepMind team drops some serious knowledge about optimizing large language model training.
+
+---
 
 What's the Deal with Compute-Optimal LLMs? 🤔
 
@@ -15,3 +21,12 @@ The implications? Smaller but longer-trained models could be the move for gettin
 Of course, there's more nuance to unpack around data scale limits, batch sizes, etc. But this opens up an interesting new axis for ML researchers and practitioners to explore as we push the frontiers of what's possible with LLMs without going full Celestron on the compute costs.
 
 Let's keep learning and building in public! What are your thoughts on this compute-optimal approach? Drop some knowledge in the comments ????
+---
+
+### Other Perspectives
+
+[Precision Analysis](stage_1_analysis.md) · [Karpathy-Style Analysis](stage_2_analysis.md) · **Builder's Perspective** · [Strategic Analysis](stage_4_analysis.md) · [Pseudocode](pseudocode.md)
+
+---
+
+[← Back to Training Compute-Optimal LLMs](.) · [Original Paper](https://arxiv.org/pdf/2203.15556) · [All Papers](../)

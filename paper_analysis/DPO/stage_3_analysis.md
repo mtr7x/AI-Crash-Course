@@ -1,4 +1,10 @@
-Here is a summary capturing the key ideas and implications of the paper on Direct Preference Optimization (DPO), written in the distinctive style of Shawn Wang (Swyx):
+# DPO: Builder's Perspective
+
+> What this means for developers shipping products
+
+**TL;DR:** TL;DR - Direct Preference Optimization (DPO) gives us a simpler way to steer large language models using human preferences, without the complexity of reinforcement learning. This could be a gamechanger for making LLMs more controllable and aligned.
+
+---
 
 TL;DR - Direct Preference Optimization (DPO) gives us a simpler way to steer large language models using human preferences, without the complexity of reinforcement learning. This could be a gamechanger for making LLMs more controllable and aligned.
 
@@ -27,3 +33,12 @@ Researchers should dig into analyzing and interpreting the implicit reward model
 Developers can start experimenting with implementing DPO for their own use cases. Perhaps re-packaging it into easy-to-use libraries and tools. I'm excited to see what the community builds by making large language models more controllable and customizable!
 
 The key takeaway: DPO is a simple, powerful algorithm that could reshape how we optimize large language models with human feedback. It makes preference learning much more accessible to developers and researchers alike. Let's run with it!
+---
+
+### Other Perspectives
+
+[Precision Analysis](stage_1_analysis.md) · [Karpathy-Style Analysis](stage_2_analysis.md) · **Builder's Perspective** · [Strategic Analysis](stage_4_analysis.md) · [Pseudocode](pseudocode.md)
+
+---
+
+[← Back to DPO](.) · [Original Paper](https://arxiv.org/pdf/2305.18290) · [All Papers](../)

@@ -1,4 +1,10 @@
-Here is a summary of the key points from the perspective of Elad Gil, focusing on strategic business implications, the investor mindset, executive-level insights, market timing, competitive landscape, scaling challenges, and long-term value creation:
+# DPO: Strategic Analysis
+
+> Business implications and market dynamics
+
+**TL;DR:** The ability to steer and control large language models to align with desired behaviors and preferences is a critical challenge as these models become more widely deployed. Existing approaches like reinforcement learning from human feedback (RLHF) have shown promise, but suffer from complexity, in...
+
+---
 
 The ability to steer and control large language models to align with desired behaviors and preferences is a critical challenge as these models become more widely deployed. Existing approaches like reinforcement learning from human feedback (RLHF) have shown promise, but suffer from complexity, instability, and high computational costs during training. 
 
@@ -11,3 +17,12 @@ However, some open questions remain around generalizability and scaling. While D
 The competitive implications are significant. If DPO enables cheaper, faster, and more effective deployment of controllable language models, it could reshape the playing field. Incumbents may need to replatform, while new entrants could rapidly build products atop DPO-tuned models.
 
 Ultimately, safe and controllable language models are a key enabler for countless high-value applications and products. Methods like DPO that can reliably align models with human preferences in a lightweight way could drive immense value creation across many industries. However, tech leadership will likely accrue to companies that can first scale these techniques robustly.
+---
+
+### Other Perspectives
+
+[Precision Analysis](stage_1_analysis.md) · [Karpathy-Style Analysis](stage_2_analysis.md) · [Builder's Perspective](stage_3_analysis.md) · **Strategic Analysis** · [Pseudocode](pseudocode.md)
+
+---
+
+[← Back to DPO](.) · [Original Paper](https://arxiv.org/pdf/2305.18290) · [All Papers](../)

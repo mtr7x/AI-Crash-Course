@@ -1,4 +1,10 @@
-Here is a summary in the style of Andrej Karpathy on the paper "Language Models are Few-Shot Learners":
+# GPT3: Karpathy-Style Analysis
+
+> First-principles technical explanation
+
+**TL;DR:** The core idea of this work is to train massively large language models in an unsupervised manner on broad data, allowing them to meta-learn the ability to perform a wide range of language tasks simply by being prompted with a few examples or instructions at inference time - a paradigm called "few...
+
+---
 
 The core idea of this work is to train massively large language models in an unsupervised manner on broad data, allowing them to meta-learn the ability to perform a wide range of language tasks simply by being prompted with a few examples or instructions at inference time - a paradigm called "few-shot learning". 
 
@@ -11,3 +17,12 @@ However, there were also many tasks where few-shot performance still struggled, 
 The potential of this few-shot meta-learning capability is two-fold: 1) It enables language models to be flexibly applied to a vast range of tasks by simply communicating via prompts, without task-specific training. 2) It hints at the possibility of more general reasoning capabilities emerging at even larger scales.
 
 But the work also highlights key open challenges - improving few-shot performance on harder tasks, mitigating harms from training on uncurated data, and developing safe deployment strategies as these models become more powerful and general. Getting this right will require responsible systems-level thinking beyond just model scaling.
+---
+
+### Other Perspectives
+
+[Precision Analysis](stage_1_analysis.md) · **Karpathy-Style Analysis** · [Builder's Perspective](stage_3_analysis.md) · [Strategic Analysis](stage_4_analysis.md) · [Pseudocode](pseudocode.md)
+
+---
+
+[← Back to GPT3](.) · [Original Paper](https://arxiv.org/pdf/2005.14165) · [All Papers](../)

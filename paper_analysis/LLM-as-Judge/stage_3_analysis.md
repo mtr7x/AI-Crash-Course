@@ -1,4 +1,10 @@
-Here's a summary capturing the style and perspectives of Swyx (Shawn Wang):
+# LLM-as-Judge: Builder's Perspective
+
+> What this means for developers shipping products
+
+**TL;DR:** We're at an inflection point for AI evaluation, my friends. The traditional benchmarks just ain't cutting it when it comes to aligning these large language models with human preferences.
+
+---
 
 We're at an inflection point for AI evaluation, my friends. The traditional benchmarks just ain't cutting it when it comes to aligning these large language models with human preferences. It's like we've been playing a whole different game without realizing the goal posts moved. 
 
@@ -11,3 +17,12 @@ Of course, there are some potential pitfalls to watch out for. The AI judges can
 This work opens up all kinds of possibilities for better aligning AI systems with what users and developers actually want. It's a great example of the ecosystem coming together - connecting threads across academia, open source, and the broader tech community. We're iterating in public and learning together.
 
 For any devs or researchers watching, now is the time to dig in. Study the benchmarks, poke at the AI judge approach, and figure out how to make your models shine on these new tasks. The next phase of helpful, truthful, and scalable AI assistants is just getting started.
+---
+
+### Other Perspectives
+
+[Precision Analysis](stage_1_analysis.md) · [Karpathy-Style Analysis](stage_2_analysis.md) · **Builder's Perspective** · [Strategic Analysis](stage_4_analysis.md) · [Pseudocode](pseudocode.md)
+
+---
+
+[← Back to LLM-as-Judge](.) · [Original Paper](https://arxiv.org/pdf/2306.05685) · [All Papers](../)

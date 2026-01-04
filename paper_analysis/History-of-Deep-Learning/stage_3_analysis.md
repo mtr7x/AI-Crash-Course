@@ -1,3 +1,11 @@
+# History of Deep Learning: Builder's Perspective
+
+> What this means for developers shipping products
+
+**TL;DR:** Overview
+This is a placeholder analysis. To generate real AI-powered insights, configure your API keys in the web viewer settings.
+
+---
 
 # 3: Swyx Style Summary Analysis
 
@@ -225,4 +233,12 @@ Appearance settings
 5. Click "Re-analyze Papers" button to update with real AI analysis
 
 **Generated:** 2025-07-07 23:27:49
-        
+---
+
+### Other Perspectives
+
+[Precision Analysis](stage_1_analysis.md) · [Karpathy-Style Analysis](stage_2_analysis.md) · **Builder's Perspective** · [Strategic Analysis](stage_4_analysis.md) · [Pseudocode](pseudocode.md)
+
+---
+
+[← Back to History of Deep Learning](.) · [Original Paper](https://github.com/adam-maj/deep-learning?tab=readme-ov-file) · [All Papers](../)

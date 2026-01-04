@@ -1,3 +1,11 @@
+# SELF-REFINE: Iterative Refinement with Self-Feedback: Pseudocode
+
+> The core algorithm, readable
+
+**TL;DR:** SELF-REFINE: Iterative Refinement with Self-Feedback - Core Algorithm Pseudocode
+
+---
+
 # SELF-REFINE: Iterative Refinement with Self-Feedback - Core Algorithm Pseudocode
 
 ## Main Algorithm
@@ -26,3 +34,12 @@ COMPLEXITY: [Time/Space complexity if mentioned]
 - [Optimization 2]
 
 Generated on: 2025-07-07 23:27:48
+---
+
+### Other Perspectives
+
+[Precision Analysis](stage_1_analysis.md) · [Karpathy-Style Analysis](stage_2_analysis.md) · [Builder's Perspective](stage_3_analysis.md) · [Strategic Analysis](stage_4_analysis.md) · **Pseudocode**
+
+---
+
+[← Back to SELF-REFINE: Iterative Refinement with Self-Feedback](.) · [Original Paper](https://arxiv.org/pdf/2303.17651) · [All Papers](../)

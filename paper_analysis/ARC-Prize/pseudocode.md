@@ -1,3 +1,15 @@
+# ARC-Prize: Pseudocode
+
+> The core algorithm, readable
+
+**TL;DR:** Main Algorithm
+```
+ALGORITHM ARC-PRIZE\
+INPUT: [Key inputs from paper]
+OUTPUT: [Key outputs from paper]
+
+---
+
 # ARC-Prize\ - Core Algorithm Pseudocode
 
 ## Main Algorithm
@@ -26,3 +38,12 @@ COMPLEXITY: [Time/Space complexity if mentioned]
 - [Optimization 2]
 
 Generated on: 2025-07-07 23:41:40
+---
+
+### Other Perspectives
+
+[Precision Analysis](stage_1_analysis.md) · [Karpathy-Style Analysis](stage_2_analysis.md) · [Builder's Perspective](stage_3_analysis.md) · [Strategic Analysis](stage_4_analysis.md) · **Pseudocode**
+
+---
+
+[← Back to ARC-Prize](.) · [Original Paper](https://arxiv.org/pdf/2412.04604) · [All Papers](../)

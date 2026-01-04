@@ -1,4 +1,10 @@
-Here is a strategic business-focused summary on instructing language models with human feedback, in the style of Elad Gil:
+# RLHF: Strategic Analysis
+
+> Business implications and market dynamics
+
+**TL;DR:** As large language models become more capable, aligning them with user intent is a critical challenge. OpenAI's work on InstructGPT demonstrates a promising approach - fine-tuning models like GPT-3 with human feedback to better follow instructions across a wide range of tasks.
+
+---
 
 As large language models become more capable, aligning them with user intent is a critical challenge. OpenAI's work on InstructGPT demonstrates a promising approach - fine-tuning models like GPT-3 with human feedback to better follow instructions across a wide range of tasks. 
 
@@ -13,3 +19,12 @@ However, major challenges remain in scaling this approach. Collecting high-quali
 Ultimately, this line of work could shape the competitive landscape by giving pioneers like OpenAI an edge in controllable and scalable language AI capabilities. But executing on the remaining technical hurdles around data efficiency, model alignment, and robust oversight will be key to fully realizing the potential. Players who can productize these advances first may be able to create defensible positions.
 
 For AI-focused founders, investors, and executives, these developments reinforce the strategic importance of aligning powerful language models with robust oversight and human feedback. Unlocking instructable and controllable language AI could create immense value, if the remaining scaling challenges can be overcome. Closely tracking the technical progress while staying mindful of the societal implications will be paramount.
+---
+
+### Other Perspectives
+
+[Precision Analysis](stage_1_analysis.md) · [Karpathy-Style Analysis](stage_2_analysis.md) · [Builder's Perspective](stage_3_analysis.md) · **Strategic Analysis** · [Pseudocode](pseudocode.md)
+
+---
+
+[← Back to RLHF](.) · [Original Paper](https://arxiv.org/pdf/2203.02155) · [All Papers](../)

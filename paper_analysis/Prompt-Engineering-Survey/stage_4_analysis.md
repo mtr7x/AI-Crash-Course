@@ -1,4 +1,13 @@
-Based on the details provided, here is a strategic, business-focused summary on prompting developments from an Elad Gil-style perspective:
+# Prompt Engineering Survey: Strategic Analysis
+
+> Business implications and market dynamics
+
+**TL;DR:** Based on the details provided, here is a strategic, business-focused summary on prompting developments from an Elad Gil-style perspective
+
+---
+
+### Based on the details provided, here is a strategic, business-focused summary on prompting developments from an Elad Gil-style perspective
+
 
 The field of prompt engineering for large language models (LLMs) is rapidly evolving, creating new opportunities and challenges for founders, executives, and investors. From a strategic standpoint, mastering effective prompting techniques can unlock significant value and competitive advantages.
 
@@ -19,3 +28,12 @@ Long-Term Value Creation
 Ultimately, the most sustainable competitive advantages will stem from proprietary prompting intellectual property, data strategies aligning prompts with unique use cases, and human capital with deep prompting expertise.
 
 Companies that treat prompt engineering as a strategic capability and invest accordingly are best positioned to drive long-term value creation from the prompt engineering revolution underway.
+---
+
+### Other Perspectives
+
+[Precision Analysis](stage_1_analysis.md) · [Karpathy-Style Analysis](stage_2_analysis.md) · [Builder's Perspective](stage_3_analysis.md) · **Strategic Analysis** · [Pseudocode](pseudocode.md)
+
+---
+
+[← Back to Prompt Engineering Survey](.) · [Original Paper](https://arxiv.org/pdf/2406.06608) · [All Papers](../)

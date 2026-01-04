@@ -1,3 +1,15 @@
+# SWE-Bench: Pseudocode
+
+> The core algorithm, readable
+
+**TL;DR:** Main Algorithm
+```
+ALGORITHM SWE-BENCH
+INPUT: [Key inputs from paper]
+OUTPUT: [Key outputs from paper]
+
+---
+
 # SWE-Bench - Core Algorithm Pseudocode
 
 ## Main Algorithm
@@ -26,3 +38,12 @@ COMPLEXITY: [Time/Space complexity if mentioned]
 - [Optimization 2]
 
 Generated on: 2025-07-07 23:27:47
+---
+
+### Other Perspectives
+
+[Precision Analysis](stage_1_analysis.md) · [Karpathy-Style Analysis](stage_2_analysis.md) · [Builder's Perspective](stage_3_analysis.md) · [Strategic Analysis](stage_4_analysis.md) · **Pseudocode**
+
+---
+
+[← Back to SWE-Bench](.) · [Original Paper](https://arxiv.org/pdf/2310.06770) · [All Papers](../)

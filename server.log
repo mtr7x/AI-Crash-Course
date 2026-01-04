@@ -63,3 +63,12 @@
 127.0.0.1 - - [08/Jul/2025 01:02:40] "[36mGET /paper_analysis/GPT3/stage_1_analysis.md HTTP/1.1[0m" 304 -
 127.0.0.1 - - [08/Jul/2025 01:02:44] "[36mGET /paper_analysis/RLHF/stage_1_analysis.md HTTP/1.1[0m" 304 -
 127.0.0.1 - - [08/Jul/2025 01:02:45] "GET /paper_analysis/MuZero/stage_1_analysis.md HTTP/1.1" 200 -
+127.0.0.1 - - [08/Jul/2025 01:09:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/Jul/2025 01:09:45] "[36mGET /paper_analysis/index.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [08/Jul/2025 01:09:46] "[36mGET /paper_analysis/Transformers/stage_1_analysis.md HTTP/1.1[0m" 304 -
+127.0.0.1 - - [08/Jul/2025 01:09:47] "[36mGET /paper_analysis/GPT3/stage_1_analysis.md HTTP/1.1[0m" 304 -
+127.0.0.1 - - [08/Jul/2025 01:09:49] "[36mGET /paper_analysis/RLHF/stage_1_analysis.md HTTP/1.1[0m" 304 -
+127.0.0.1 - - [08/Jul/2025 01:09:54] "[36mGET /paper_analysis/MuZero/stage_1_analysis.md HTTP/1.1[0m" 304 -
+127.0.0.1 - - [08/Jul/2025 01:18:06] "GET /paper_analysis/CoT-Chain-of-Thought/stage_1_analysis.md HTTP/1.1" 200 -
+127.0.0.1 - - [08/Jul/2025 01:18:16] "GET /paper_analysis/ARC-Prize/stage_1_analysis.md HTTP/1.1" 200 -
+127.0.0.1 - - [08/Jul/2025 01:18:20] "GET /paper_analysis/DeepSeek-R1/stage_1_analysis.md HTTP/1.1" 200 -

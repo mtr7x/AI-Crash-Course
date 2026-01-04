@@ -1,11 +1,17 @@
-Here's a summary in the style of Swyx (Shawn Wang) on the paper "Language Models are Few-Shot Learners":
+# GPT3: Builder's Perspective
 
-🔥 TL;DR - GPT-3 (175B param LM) shows impressive few-shot learning capabilities across many NLP tasks, just by conditioning on task descriptions/examples. No gradient updates needed! This opens up exciting possibilities for developers.
+> What this means for developers shipping products
+
+**TL;DR:**  TL;DR - GPT-3 (175B param LM) shows impressive few-shot learning capabilities across many NLP tasks, just by conditioning on task descriptions/examples. No gradient updates needed!
+
+---
+
+ TL;DR - GPT-3 (175B param LM) shows impressive few-shot learning capabilities across many NLP tasks, just by conditioning on task descriptions/examples. No gradient updates needed! This opens up exciting possibilities for developers.
 
 👷‍♂️ **Developer-Centric Perspective**:
 Finally, we can build NLP apps without huge labeled datasets! Just describe the task to GPT-3 via prompts and examples. This could democratize NLP and allow devs to easily create custom language UIs/tools.
 
-🤖 **Trend Synthesis**: 
+ **Trend Synthesis**: 
 Few-shot learning is the next frontier after pre-training -> fine-tuning. As models scale up, they become multi-task meta-learners that can rapidly adapt to new tasks from just a few examples. This could make NLP solutions much more generalizable and reusable.
 
 🐦 **Community Insights**:
@@ -24,3 +30,12 @@ What do you all think about few-shot learning and multi-task models like GPT-3? 
 
 #️⃣ **Ecosystem Thinking**:
 Few-shot learning could be transformative for the AI/ML platforms ecosystem. If models like GPT-3 become commoditized, we may see a platform shift from labeled data to better prompting and personalization.
+---
+
+### Other Perspectives
+
+[Precision Analysis](stage_1_analysis.md) · [Karpathy-Style Analysis](stage_2_analysis.md) · **Builder's Perspective** · [Strategic Analysis](stage_4_analysis.md) · [Pseudocode](pseudocode.md)
+
+---
+
+[← Back to GPT3](.) · [Original Paper](https://arxiv.org/pdf/2005.14165) · [All Papers](../)

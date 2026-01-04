@@ -1,3 +1,11 @@
+# SWE-Agent: Karpathy-Style Analysis
+
+> First-principles technical explanation
+
+**TL;DR:** Overview
+This is a placeholder analysis. To generate real AI-powered insights, configure your API keys in the web viewer settings.
+
+---
 
 # 2: Andrej Karpathy Style Summary Analysis
 
@@ -26,4 +34,12 @@ software engineering...
 5. Click "Re-analyze Papers" button to update with real AI analysis
 
 **Generated:** 2025-07-07 23:27:38
-        
+---
+
+### Other Perspectives
+
+[Precision Analysis](stage_1_analysis.md) · **Karpathy-Style Analysis** · [Builder's Perspective](stage_3_analysis.md) · [Strategic Analysis](stage_4_analysis.md) · [Pseudocode](pseudocode.md)
+
+---
+
+[← Back to SWE-Agent](.) · [Original Paper](https://arxiv.org/pdf/2405.15793) · [All Papers](../)

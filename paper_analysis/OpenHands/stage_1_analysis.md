@@ -1,3 +1,11 @@
+# OpenHands: Precision Analysis
+
+> Key insights, surprising findings, and quotable moments
+
+**TL;DR:** Overview
+This is a placeholder analysis. To generate real AI-powered insights, configure your API keys in the web viewer settings.
+
+---
 
 # 1: Precision Analysis Analysis
 
@@ -25,4 +33,12 @@ Robert Brennan10, Hao Peng1, Heng Ji1, Graham Neubig2,10
 5. Click "Re-analyze Papers" button to update with real AI analysis
 
 **Generated:** 2025-07-07 23:27:40
-        
+---
+
+### Other Perspectives
+
+**Precision Analysis** · [Karpathy-Style Analysis](stage_2_analysis.md) · [Builder's Perspective](stage_3_analysis.md) · [Strategic Analysis](stage_4_analysis.md) · [Pseudocode](pseudocode.md)
+
+---
+
+[← Back to OpenHands](.) · [Original Paper](https://arxiv.org/pdf/2407.16741) · [All Papers](../)

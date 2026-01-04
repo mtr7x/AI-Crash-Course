@@ -1,6 +1,10 @@
-Here is my analysis of the provided paper:
+# Training Compute-Optimal LLMs: Precision Analysis
 
-1. Key Insights:
+> Key insights, surprising findings, and quotable moments
+
+**TL;DR:** Current large language models are significantly undertrained relative to their model size, due to the recent focus on scaling up model parameters while keeping the amount of training data relatively constant.
+
+---
 
 - Current large language models are significantly undertrained relative to their model size, due to the recent focus on scaling up model parameters while keeping the amount of training data relatively constant.
 
@@ -12,7 +16,9 @@ Here is my analysis of the provided paper:
 
 - The findings challenge the conventional approach of predominantly increasing model size when increasing compute, while undertrained relative to the optimal number of tokens.
 
-2. Surprising/Shocking Elements:
+
+### Surprising/Shocking Elements
+
 
 - The authors estimate that current large language models should be trained on substantially more tokens (e.g. 4x for Gopher) rather than just increasing model size.
 
@@ -20,7 +26,9 @@ Here is my analysis of the provided paper:
 
 - The optimal compute-scaling approach differs significantly from prior work (Kaplan et al., 2020), representing a potential disruption to current practices.
 
-3. Key Quotes:
+
+### Key Quotes
+
 
 "We ﬁnd that current large language models are signiﬁcantly undertrained, a consequence of the recent focus on scaling language models whilst keeping the amount of training data constant."
 
@@ -31,3 +39,12 @@ Here is my analysis of the provided paper:
 "As a highlight, Chinchilla reaches a state-of-the-art average accuracy of 67.5% on the MMLU benchmark, greater than a 7% improvement over Gopher."
 
 "The drive to train larger and larger models is clear—so far increasing the size of language models has been responsible for improving the state-of-the-art in many language modelling tasks."
+---
+
+### Other Perspectives
+
+**Precision Analysis** · [Karpathy-Style Analysis](stage_2_analysis.md) · [Builder's Perspective](stage_3_analysis.md) · [Strategic Analysis](stage_4_analysis.md) · [Pseudocode](pseudocode.md)
+
+---
+
+[← Back to Training Compute-Optimal LLMs](.) · [Original Paper](https://arxiv.org/pdf/2203.15556) · [All Papers](../)

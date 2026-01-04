@@ -1,3 +1,11 @@
+# CoT (Chain of Thought): Pseudocode
+
+> The core algorithm, readable
+
+**TL;DR:** CoT\ (Chain of Thought) - Core Algorithm Pseudocode
+
+---
+
 # CoT\ (Chain of Thought) - Core Algorithm Pseudocode
 
 ## Main Algorithm
@@ -26,3 +34,12 @@ COMPLEXITY: [Time/Space complexity if mentioned]
 - [Optimization 2]
 
 Generated on: 2025-07-07 23:41:35
+---
+
+### Other Perspectives
+
+[Precision Analysis](stage_1_analysis.md) · [Karpathy-Style Analysis](stage_2_analysis.md) · [Builder's Perspective](stage_3_analysis.md) · [Strategic Analysis](stage_4_analysis.md) · **Pseudocode**
+
+---
+
+[← Back to CoT (Chain of Thought)](.) · [Original Paper](https://arxiv.org/pdf/2201.11903) · [All Papers](../)

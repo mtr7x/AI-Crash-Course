@@ -1,4 +1,10 @@
-Here is a summary in the style of Andrej Karpathy:
+# Training Compute-Optimal LLMs: Karpathy-Style Analysis
+
+> First-principles technical explanation
+
+**TL;DR:** Large language models have grown massively in recent years, with dense transformer models now exceeding 500 billion parameters. The motivation is clear - increasing model size has consistently improved performance across many language tasks.
+
+---
 
 Large language models have grown massively in recent years, with dense transformer models now exceeding 500 billion parameters. The motivation is clear - increasing model size has consistently improved performance across many language tasks. However, training these enormous models requires staggering compute resources. 
 
@@ -13,3 +19,12 @@ To validate our findings, we trained a 70B parameter "Chinchilla" model on 1.4 t
 The implications are significant. By better allocating compute between size and tokens, we can train more performant yet substantially smaller models. This reduces inference costs and energy usage, facilitating broader downstream applications.
 
 Ultimately, we need to think about language model training in a holistic, systems-minded way. Focusing just on scaling model size while undertrained is sub-optimal. By taking a balanced, first-principles approach, we can more efficiently utilize compute to push forward capabilities.
+---
+
+### Other Perspectives
+
+[Precision Analysis](stage_1_analysis.md) · **Karpathy-Style Analysis** · [Builder's Perspective](stage_3_analysis.md) · [Strategic Analysis](stage_4_analysis.md) · [Pseudocode](pseudocode.md)
+
+---
+
+[← Back to Training Compute-Optimal LLMs](.) · [Original Paper](https://arxiv.org/pdf/2203.15556) · [All Papers](../)

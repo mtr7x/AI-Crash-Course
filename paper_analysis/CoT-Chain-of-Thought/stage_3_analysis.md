@@ -1,4 +1,10 @@
-Here's a summary capturing the key ideas of the paper in the enthusiastic and insightful style of Swyx:
+# CoT (Chain of Thought): Builder's Perspective
+
+> What this means for developers shipping products
+
+**TL;DR:** Hey devs! This paper from the Google Brain team is a gamechanger for unlocking the reasoning abilities of large language models like PaLM and GPT-3.
+
+---
 
 **The Eureka Moment for Reasoning AIs**
 
@@ -8,7 +14,9 @@ The core idea? Show the model some examples where the output includes the step-b
 
 This shatters previous performance ceilings and basically achieves a new SOTA by simply prompting - no expensive finetuning required! For example, chain-of-thought PaLM 540B blows away even the finetuned GPT-3 on GSM8K (57% vs 35% solve rate). Mind blown?
 
-For us builders, chain-of-thought prompting is a game-changer:
+
+### For us builders, chain-of-thought prompting is a game-changer
+
 
 1) It provides an intuitive window into the model's reasoning process for easier debugging.
 2) It naturally allocates more compute to harder multi-step tasks.
@@ -19,3 +27,12 @@ Of course, some caveats remain - the prompts need high-quality reasoning example
 This puts reasoning abilities firmly on the roadmap for scaling up language models. As models grow larger and prompting techniques advance, we may finally see the emergence of general artificial reasoning at human levels. The future will be created not just by models that can perceive and generate text, but that can also reason and explain their thinking like we do.
 
 The reasoning revolution has arrived, devs! Who's gonna build the killer reasoning app on top of these breakthroughs? Let's discuss in the comments and start exploring the new frontiers of AI...
+---
+
+### Other Perspectives
+
+[Precision Analysis](stage_1_analysis.md) · [Karpathy-Style Analysis](stage_2_analysis.md) · **Builder's Perspective** · [Strategic Analysis](stage_4_analysis.md) · [Pseudocode](pseudocode.md)
+
+---
+
+[← Back to CoT (Chain of Thought)](.) · [Original Paper](https://arxiv.org/pdf/2201.11903) · [All Papers](../)
